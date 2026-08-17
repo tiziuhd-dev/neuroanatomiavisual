@@ -1,4 +1,4 @@
-﻿/* =========================================
+/* =========================================
    NEUROANATOMIA VISUAL — MOBILE-FIRST CSS
    Sem dependencias externas de icons.
    Font: Inter com fallback system-ui.
@@ -92,29 +92,17 @@ a{color:inherit;text-decoration:none}
 }
 .btn-sm-acc:active{transform:scale(.97)}
 
-/* =========================================
-   TOP BAR
-   ========================================= */
-.top-bar{
-  position:sticky;top:0;z-index:100;
-  background:#0b1c30;border-bottom:1px solid var(--acc-bdr);
-  padding:8px 18px;text-align:center;
-  font-size:.75rem;color:var(--muted);display:flex;
-  align-items:center;justify-content:center;gap:10px;flex-wrap:wrap
-}
-.top-lock{color:var(--txt)}
-.top-sep{color:var(--faint)}
-.top-bar strong{color:var(--acc)}
+
 
 /* =========================================
    HEADER
    ========================================= */
 .header{
-  position:sticky;top:33px;z-index:90;
-  background:rgba(6,17,31,.92);backdrop-filter:blur(12px);
+  position:sticky;top:0;z-index:90;
+  background:rgba(6,17,31,.95);backdrop-filter:blur(14px);
   border-bottom:1px solid var(--bdr)
 }
-.hdr{display:flex;align-items:center;justify-content:space-between;padding-top:13px;padding-bottom:13px}
+.hdr{display:flex;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:18px}
 .logo{
   display:flex;align-items:center;gap:6px;
   font-size:1rem;font-weight:700;color:var(--txt)

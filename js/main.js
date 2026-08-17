@@ -1,29 +1,11 @@
-﻿(function(){
+(function(){
 'use strict';
 
 // Ano
 var yr = document.getElementById('yr');
 if(yr) yr.textContent = new Date().getFullYear();
 
-// ── COUNTDOWN ──────────────────────────────
-var KEY = 'nav_end';
-var end = parseInt(localStorage.getItem(KEY)||'0',10);
-if(!end || end < Date.now()){
-  end = Date.now() + 10*60*1000;
-  localStorage.setItem(KEY, end);
-}
 
-function pad(n){return ('0'+n).slice(-2)}
-function tick(){
-  var diff = Math.max(0, end - Date.now());
-  var m = Math.floor(diff/60000);
-  var s = Math.floor((diff%60000)/1000);
-  var str = pad(m)+':'+pad(s);
-  var el = document.getElementById('topTimer');
-  if(el) el.textContent = str;
-}
-tick();
-setInterval(tick,1000);
 
 // ── SCROLL STUFF ───────────────────────────
 var header  = document.getElementById('header');
