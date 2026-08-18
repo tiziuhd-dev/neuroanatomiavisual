@@ -16,7 +16,7 @@
   text-transform: uppercase;
 }
 .top-bar-timer {
-  background: #facc15; /* linha amarela */
+  background: #ffffff; /* linha branca */
   color: #ea6c00; /* texto laranja */
   font-size: clamp(.75rem, 3vw, .9rem);
   padding: 10px 16px;
@@ -42,11 +42,12 @@
    ========================================= */
 .marquee-container {
   overflow: hidden;
-  margin: 24px 0 16px;
+  margin: 32px 0 32px;
   position: relative;
   border-radius: 14px;
-  box-shadow: 0 8px 32px rgba(0,0,0,.35);
+  box-shadow: 0 0 60px rgba(245, 158, 11, 0.15), 0 8px 32px rgba(0,0,0,.6);
   background: var(--card);
+  border: 1px solid var(--acc-bdr);
 }
 .marquee-track {
   display: flex;
