@@ -52,20 +52,42 @@
 
   window.addEventListener('scroll', onScroll, { passive: true });
 
+  // ── CHAOS TABS ─────────────────────────────
+  (function () {
+    var tabs   = document.querySelectorAll('.chaos-tab');
+    var panels = document.querySelectorAll('.chaos-panel');
+    if (!tabs.length) return;
+
+    function activate(idx) {
+      tabs.forEach(function (t) { t.classList.remove('active'); });
+      panels.forEach(function (p) { p.classList.remove('active'); });
+      tabs[idx].classList.add('active');
+      panels[idx].classList.add('active');
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        clearInterval(autoRotate);
+        activate(parseInt(tab.dataset.tab));
+      });
+    });
+
+    // Auto-rotate passively
+    var current = 0;
+    var autoRotate = setInterval(function () {
+      current = (current + 1) % tabs.length;
+      activate(current);
+    }, 2500);
+  })();
+
   // ── FAQ ────────────────────────────────────
   document.querySelectorAll('.faq-q').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var item = btn.closest('.faq-item');
       var isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item.open').forEach(function (i) { i.classList.remove('open') });
+      document.querySelectorAll('.faq-item.open').forEach(function (i) { i.classList.remove('open'); });
       if (!isOpen) item.classList.add('open');
     });
-  });
-
-  // Wrapper faq-a content (necessario para animacao de altura)
-  document.querySelectorAll('.faq-a').forEach(function (el) {
-    var txt = el.innerHTML;
-    el.innerHTML = '<div class="faq-a-in">' + txt + '</div>';
   });
 
   // ── SMOOTH SCROLL ──────────────────────────
@@ -75,7 +97,7 @@
       var t = id ? document.getElementById(id) : null;
       if (t) {
         e.preventDefault();
-        var offset = 80;
+        var offset = 100;
         var top = t.getBoundingClientRect().top + window.scrollY - offset;
         window.scrollTo({ top: top, behavior: 'smooth' });
       }

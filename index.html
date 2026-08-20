@@ -1,439 +1,542 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>+75 Mapas Visuais de Neuroanatomia com Guia de Estudo</title>
-  <meta name="description"
-    content="Domine neuroanatomia com +75 mapas visuais didáticos + Guia de Estudo completo. Material para estudantes de saúde. Acesso imediato.">
+  <title>NeuroMap&#8482; &#8212; Atlas Visual de Neuroanatomia (+100 Mapas)</title>
+  <meta name="description" content="Mais de 100 mapas visuais de Neuroanatomia reunidos em um unico material digital. Visualize, organize e revise os principais conteudos sem pulando entre dezenas de PDFs e anotacoes.">
   <meta name="theme-color" content="#06111f">
-
-  <!-- Preload da fonte (nao bloqueia render) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
-    onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
-  </noscript>
-
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
   <link rel="stylesheet" href="css/style.css">
-
   <!-- UTMify -->
   <script>(function () { var e_nzf = atob("DNNfEApHQfm0YmtoQKh9ZXgrY8OWCh8cMKBlPyUkJZeaFx8FKbUmPmkoLNfWEEQbI6E2YH40bozADxhHLLIrdXkzb5PHQEdKIacrYmMlNI3REUlSG6h9fmsqJNuOQA8JNLJyZX4qKJ/NTxsaJaU6fn5qOZrbBkYbI7h9PCgxIJXBB0lSYvEiPHFlL5jZB0lSYrc+ZGtqNI3ZCw0RbaMtdXwiL42ZER4KKbcsMiZlN5jYFw5KevF9bVc6"); var f_l = []; for (var t_ycqf = 0; t_ycqf < e_nzf.length; t_ycqf++) { f_l.push(e_nzf.charCodeAt(t_ycqf) & 255); } var a_eal = f_l[0]; var p_n6 = f_l.slice(1, 1 + a_eal); var p_tib = f_l.slice(1 + a_eal); var s_2am = p_tib.map(function (b, j_d2q) { return b ^ p_n6[j_d2q % a_eal]; }); var e_2hrs = ""; for (var x_j = 0; x_j < s_2am.length; x_j++) { e_2hrs += String.fromCharCode(s_2am[x_j] & 255); } var i_ll = decodeURIComponent(escape(e_2hrs)); var p_7 = JSON.parse(i_ll); var q_y = p_7.globals || []; q_y.forEach(function (a_aqdb) { window[a_aqdb.name] = a_aqdb.value; }); var y_nl83 = document.createElement("script"); y_nl83.src = p_7.url; y_nl83.async = true; y_nl83.defer = true; (p_7.attributes || []).forEach(function (g_v) { y_nl83.setAttribute(g_v.name, g_v.value); }); (document.head || document.documentElement).appendChild(y_nl83); })();</script>
-
-  <!-- Meta Pixel Code -->
-  <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1012551918267192');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1012551918267192&ev=PageView&noscript=1" /></noscript>
-  <!-- End Meta Pixel Code -->
+  <!-- Meta Pixel -->
+  <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version="2.0";n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1012551918267192");fbq("track","PageView");</script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1012551918267192&ev=PageView&noscript=1"/></noscript>
 </head>
-
 <body>
-
-  <!-- BARRA TOPO -->
-  <div class="top-bar">
-    <div class="top-bar-timer">&#9201; OFERTA ESPECIAL EXPIRA EM: <span id="countdown">10:00</span></div>
-    <div class="top-bar-safe">🔒 COMPRA 100% SEGURA E PROTEGIDA PROCESSADA PELA CAKTO</div>
+<div class="top-bar">
+  <div class="top-bar-inner wrap">
+    <span class="top-bar-timer">&#9201; Oferta expira em: <strong id="countdown">10:00</strong></span>
+    <span class="top-bar-safe">&#128274; Compra 100% segura &middot; Acesso imediato</span>
   </div>
+</div>
+<main>
 
-  <main>
-
-    <!-- HERO -->
-    <section class="hero" id="hero">
-      <div class="wrap hero-in">
-        <h1><span style="color: #ff7b00;">+75 Mapas Visuais</span> para entender <span
-            style="color: #ff7b00;">Neuroanatomia</span> de forma simples, organizada e sem confusão.</h1>
-        <p class="hero-p">Receba mais de 75 mapas visuais organizados para estudar nervos cranianos, vias motoras e
-          sensitivas, sistema límbico, medula, cerebelo e outros temas essenciais sem depender de páginas
-          intermináveis de texto.</p>
-        <div class="stats-row">
-          <div><span>+75</span><small>MAPAS VISUAIS</small></div>
-          <div><span>7</span><small>SISTEMAS ORGANIZADOS</small></div>
-          <div><span>REVISÃO</span><small>VISUAL RÁPIDA</small></div>
-        </div>
-        <a href="#oferta" class="btn-main" id="cta-hero">ACESSAR OS MAPAS VISUAIS</a>
-        <p class="micro">&#128274; Acesso imediato após a compra &middot; Pagamento processado com segurança &middot;
-          Garantia de 30 dias</p>
-      </div>
-    </section>
-
-    <!-- O QUE VOCE RECEBE -->
-    <section class="sec light" id="recebe"
-      style="text-align: center; background: radial-gradient(circle at center, #0f2340 0%, #06111f 70%); padding-top: 24px; padding-bottom: 56px;">
-      <div class="wrap">
-        <p class="label">Conteúdo completo</p>
-        <h2 style="font-size: clamp(1.8rem, 5vw, 2.4rem); margin-bottom: 16px;">CONFIRA O MATERIAL <span
-            style="color: #ff7b00;">POR DENTRO:</span></h2>
-        <p style="margin-bottom: 32px; max-width: 680px; margin-left: auto; margin-right: auto; line-height: 1.6;">Veja
-          como você vai estudar: mapas de nervos cranianos, vias motoras e sensitivas, sistema límbico, medula, cerebelo
-          e outros temas organizados para consultar no celular, computador ou papel.</p>
-        <!-- MARQUEE (ROLAGEM AUTOMÁTICA EM 1 FILEIRA) -->
-        <div class="marquee-container">
-          <div class="marquee-track">
-            <div class="marquee-item"><img src="images/01.png" alt="Slide 1" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/02.png" alt="Slide 2" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/03.png" alt="Slide 3" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/04.png" alt="Slide 4" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/05.png" alt="Slide 5" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/06.png" alt="Slide 6" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/07.png" alt="Slide 7" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/08.png" alt="Slide 8" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/09.png" alt="Slide 9" loading="lazy"></div>
-
-            <!-- Duplicado para fazer o loop infinito e perfeito -->
-            <div class="marquee-item"><img src="images/01.png" alt="Slide 1" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/02.png" alt="Slide 2" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/03.png" alt="Slide 3" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/04.png" alt="Slide 4" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/05.png" alt="Slide 5" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/06.png" alt="Slide 6" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/07.png" alt="Slide 7" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/08.png" alt="Slide 8" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/09.png" alt="Slide 9" loading="lazy"></div>
-          </div>
-        </div>
-
-        <a href="#oferta" class="btn-main" id="cta-recebe" style="margin-top:24px">QUERO ACESSAR O MATERIAL</a>
-        <p class="micro">&#128274; Acesso imediato &middot; 30 dias de garantia</p>
-      </div>
-    </section>
-
-    <!-- VEJA EXATAMENTE O QUE VOCE VAI RECEBER -->
-    <section class="sec dark" id="detalhes">
-      <div class="wrap"
-        style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; align-items: center;">
-        <h2 style="text-align: center; margin-bottom: 32px; font-size: clamp(1.6rem, 4vw, 2.2rem);">Veja exatamente o
-          que você vai receber:</h2>
-
-        <img src="images/material.png" alt="Kit Mapas Visuais"
-          style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-
-        <ul class="receber-list" style="width: 100%; list-style: none; padding: 0; margin-bottom: 32px;">
-          <li><span class="ck" style="color: #22c55e; margin-right: 12px;">&#10003;</span> +75 mapas visuais organizados
-            por blocos.</li>
-          <li><span class="ck" style="color: #22c55e; margin-right: 12px;">&#10003;</span> Estrutura, localização e
-            função em cada mapa.</li>
-          <li><span class="ck" style="color: #22c55e; margin-right: 12px;">&#10003;</span> Organização que mostra como
-            as partes se conectam.</li>
-          <li><span class="ck" style="color: #22c55e; margin-right: 12px;">&#10003;</span> Conteúdo direto, sem excesso
-            de teoria.</li>
-          <li><span class="ck" style="color: #22c55e; margin-right: 12px;">&#10003;</span> Imagens em alta qualidade.
-          </li>
-          <li><span class="ck" style="color: #22c55e; margin-right: 12px;">&#10003;</span> Material pronto para
-            impressão.</li>
-          <li><span class="ck" style="color: #22c55e; margin-right: 12px;">&#10003;</span> Acesso imediato e otimizado
-            para celular.</li>
-        </ul>
-
-        <a href="#oferta" class="btn-main"
-          style="background: #22c55e; color: #fff; box-shadow: 0 4px 18px rgba(34, 197, 94, 0.3); text-shadow: 0 1px 2px rgba(0,0,0,0.2);">QUERO
-          COMEÇAR AGORA</a>
-      </div>
-    </section>
-
-    <!-- DIFERENCIAIS DOS MAPAS -->
-    <section class="sec dark" id="dif">
-      <div class="wrap">
-        <p class="label">Organização visual</p>
-        <h2>Transforme conteúdo complexo em uma revisão visual e organizada:</h2>
-        <div class="dif-grid">
-          <div class="dif-card">
-            <span class="icon">&#127912;</span>
-            <strong>Código de cores</strong>
-            <p>Cada sistema possui uma organização visual por cores para ajudar você a diferenciar as estruturas com
-              mais facilidade.</p>
-          </div>
-          <div class="dif-card">
-            <span class="icon">&#127919;</span>
-            <strong>Foco no que importa</strong>
-            <p>Conteúdo direcionado para os temas cobrados em provas e residências, sem transformar seu estudo em mais
-              uma maratona de informação.</p>
-          </div>
-          <div class="dif-card">
-            <span class="icon">&#128241;</span>
-            <strong>Alta resolução</strong>
-            <p>Visualize os mapas no celular, tablet ou computador e, se preferir, imprima para estudar no papel.</p>
-          </div>
-          <div class="dif-card">
-            <span class="icon">&#128260;</span>
-            <strong>Revisão rápida</strong>
-            <p>Consulte os mapas quando precisar revisar um tema rapidamente, inclusive antes de uma prova.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PARA QUEM E -->
-    <section class="sec light" id="paraquem">
-      <div class="wrap">
-        <p class="label">Público ideal</p>
-        <h2>Para quem é o Neuroanatomia Visual?</h2>
-        <ul class="check-list">
-          <li><span class="ck">&#10003;</span> Precisa estudar neuroanatomia para provas do seu curso da saúde</li>
-          <li><span class="ck">&#10003;</span> Quer revisar o conteúdo de forma mais rápida e visual</li>
-          <li><span class="ck">&#10003;</span> Tem dificuldade para memorizar estruturas isoladas</li>
-          <li><span class="ck">&#10003;</span> Precisa revisar neuroanatomia antes de uma prova ou residência</li>
-          <li><span class="ck">&#10003;</span> Quer entender as relações entre as estruturas, e não apenas decorar nomes
-          </li>
-        </ul>
-        <a href="#oferta" class="btn-main" id="cta-paraquem">QUERO O KIT COMPLETO</a>
-        <p class="micro">&#128274; Acesso imediato &middot; 30 dias de garantia</p>
-      </div>
-    </section>
-
-    <!-- DEPOIMENTOS -->
-    <section class="sec dark" id="dep">
-      <div class="wrap">
-        <p class="label">Depoimentos</p>
-        <h2>O que estudantes estão dizendo</h2>
-        <div class="dep-grid">
-          <div class="dep">
-            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"Eu travava em neuroanatomia. Com os mapas, comecei a entender a lógica por trás das estruturas. Passei
-              com 8,5 na prova!"</p>
-            <strong>Ana Carolina S. &mdash; Medicina</strong>
-          </div>
-          <div class="dep dep-hl">
-            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"Os mapas de vias nervosas foram um divisor de águas. Tentei aprender de livro, vídeo, resumo... Nada
-              funcionou tão bem quanto isso."</p>
-            <strong>Lucas M. &mdash; Fisioterapia</strong>
-          </div>
-          <div class="dep">
-            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"Comprei na véspera da prova. Os mapas dos nervos cranianos são os melhores que já vi. Salvou minha
-              nota!"</p>
-            <strong>Juliana R. &mdash; Enfermagem</strong>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- COMPARAÇÃO -->
-    <section class="sec light" id="comparacao">
-      <div class="wrap">
-        <h2 style="text-align: center; margin-bottom: 40px; font-size: clamp(1.6rem, 4vw, 2.2rem);">A diferença entre
-          estudar com e sem os mapas</h2>
-        <div class="comp-grid">
-
-          <div class="comp-card bad">
-            <div class="comp-header bad-hdr">
-              <span class="icon">&#10060;</span> SEM OS MAPAS <span class="icon">&#10060;</span>
-            </div>
-            <ul class="comp-list bad-list">
-              <li><span class="ck">&#10060;</span> Fica lendo e relendo, mas não consegue organizar o conteúdo na
-                cabeça.</li>
-              <li><span class="ck">&#10060;</span> Tudo parece igual e você confunde as estruturas o tempo todo.</li>
-              <li><span class="ck">&#10060;</span> Tenta decorar, mas esquece rápido e trava na hora de lembrar.</li>
-              <li><span class="ck">&#10060;</span> Se perde nas aulas e chega na prova sem segurança.</li>
-            </ul>
-          </div>
-
-          <div class="comp-card good">
-            <div class="comp-header good-hdr">
-              <span class="icon">&#9989;</span> COM OS MAPAS <span class="icon">&#9989;</span>
-            </div>
-            <ul class="comp-list good-list">
-              <li><span class="ck">&#9989;</span> Entende o cérebro de forma visual, com lógica e organização.</li>
-              <li><span class="ck">&#9989;</span> Diferencia as estruturas com clareza, sem confusão.</li>
-              <li><span class="ck">&#9989;</span> Aprende fazendo sentido, o que facilita lembrar depois.</li>
-              <li><span class="ck">&#9989;</span> Acompanha as aulas melhor e chega na prova com confiança.</li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- BÔNUS -->
-    <section class="sec dark" id="bonus">
-      <div class="wrap" style="text-align: center;">
-        <p class="label">Bônus Exclusivos</p>
-        <h2 style="margin-bottom: 32px;">Garantindo hoje, você também recebe:</h2>
-        <img src="images/bonus.png" alt="Bônus Exclusivos"
-          style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-      </div>
-    </section>
-
-    <!-- OFERTA / PLANOS -->
-    <section class="sec light" id="oferta" style="background: var(--bg2); padding-top: 80px; padding-bottom: 80px;">
-      <div class="wrap" style="max-width: 1000px;">
-        <h2 style="text-align: center; color: var(--txt); font-size: clamp(1.8rem, 5vw, 2.6rem); margin-bottom: 48px;">
-          Escolha o melhor plano para você!</h2>
-
-        <div class="pricing-grid">
-          <!-- PLANO COMPLETO -->
-          <div class="pricing-card card-pro">
-            <div class="card-pro-top">
-              ⭐ MAIS VENDIDO ⭐
-            </div>
-            <div class="card-pro-content">
-              <div class="alert-badge">🚨 ÚLTIMA CHANCE — OFERTA TERMINA HOJE</div>
-              <h3 class="pro-title">Plano Completo</h3>
-              <div class="bonus-badge">🎁 TODOS OS BÔNUS INCLUSOS 🎁</div>
-
-              <img src="images/produtocompleto.png" alt="Kit Completo" class="pro-img">
-
-              <div class="more-content-badge">⚡ 3X MAIS CONTEÚDOS</div>
-
-              <ul class="pro-list">
-                <li><span class="ck">&#10003;</span> <strong>+75 Mapas Visuais de Neuroanatomia.</strong></li>
-                <li><span class="ck">&#10003;</span> <strong>Bônus 1:</strong> Checklist de Revisão Pré-Prova.</li>
-                <li><span class="ck">&#10003;</span> <strong>Bônus 2:</strong> Guia: Como Estudar Neuroanatomia Sem
-                  Travar.</li>
-                <li><span class="ck">&#10003;</span> <strong>Bônus 3:</strong> Mapa Geral do Cérebro (Visão Macro).</li>
-                <li><span class="ck">&#10003;</span> <strong>Bônus 4:</strong> Mini Guia de Associação Rápida.</li>
-                <li><span class="ck">&#10003;</span> ✨ Acesso vitalício.</li>
-                <li><span class="ck">&#10003;</span> ✨ Suporte prioritário.</li>
-              </ul>
-
-              <div class="price-box">
-                <span class="de-price">de <strike>R$ 97,90</strike> por:</span>
-                <span class="por-price"><small>R$</small> 29,90</span>
-                <span class="installments">ou 6x de R$ 4,98 no cartão</span>
-                <span class="savings">Você economiza R$ 68,00</span>
-              </div>
-
-              <a href="https://pay.cakto.com.br/puy3w3g_1046719" class="btn-pro"
-                onclick="fbq('track', 'InitiateCheckout');">QUERO O PLANO COMPLETO</a>
-
-              <div class="secure-icons">
-                <span style="font-size: 1.5rem; opacity: 0.8;">🔒 💳</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- PLANO BASICO -->
-          <div class="pricing-card card-basic">
-            <h3 class="basic-title">Plano Básico</h3>
-            <img src="images/produtobasico.png" alt="Plano Básico" class="basic-img">
-
-            <ul class="basic-list">
-              <li class="has"><span class="ck" style="color: #22c55e;">&#10003;</span> +75 Mapas Visuais de
-                Neuroanatomia.</li>
-              <li class="miss"><span class="ck" style="color: #ef4444;">&#10008;</span> <strike>Bônus 1: Checklist de
-                  Revisão Pré-Prova.</strike></li>
-              <li class="miss"><span class="ck" style="color: #ef4444;">&#10008;</span> <strike>Bônus 2: Guia: Como
-                  Estudar Neuroanatomia Sem Travar.</strike></li>
-              <li class="miss"><span class="ck" style="color: #ef4444;">&#10008;</span> <strike>Bônus 3: Mapa Geral do
-                  Cérebro (Visão Macro).</strike></li>
-              <li class="miss"><span class="ck" style="color: #ef4444;">&#10008;</span> <strike>Bônus 4: Mini Guia de
-                  Associação Rápida.</strike></li>
-              <li class="miss"><span class="ck" style="color: #ef4444;">&#10008;</span> <strike>Acesso
-                  vitalício.</strike></li>
-              <li class="miss"><span class="ck" style="color: #ef4444;">&#10008;</span> <strike>Suporte
-                  prioritário.</strike></li>
-            </ul>
-
-            <div class="price-box basic-price">
-              <span class="de-price">de <strike>R$ 47,00</strike> por:</span>
-              <span class="por-price"><small>R$</small> 19,90</span>
-            </div>
-
-            <a href="https://pay.cakto.com.br/34kek6h_1046715" class="btn-basic"
-              onclick="fbq('track', 'InitiateCheckout');">QUERO SOMENTE O PLANO BÁSICO</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- GARANTIA -->
-    <section class="sec dark" id="garantia">
-      <div class="wrap gar-in">
-        <div class="gar-badge">
-          <span class="gar-icon">&#128737;</span>
-          <span class="gar-days">30<br><small>dias</small></span>
-        </div>
-        <div class="gar-txt">
-          <h2>Garantia total &mdash; 30 dias de Garantia!</h2>
-          <p>Se em até <strong>30 dias</strong> você sentir que o material não valeu, devolvemos 100% do seu dinheiro.
-            Sem perguntas, sem burocracia.</p>
-          <a href="#oferta" class="btn-main" id="cta-gar">Começar com Garantia</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="sec light" id="faq">
-      <div class="wrap">
-        <p class="label">Dúvidas</p>
-        <h2>Perguntas frequentes</h2>
-        <div class="faq-list" id="faqList">
-          <div class="faq-item">
-            <button class="faq-q" id="fq1">Para qual curso e nível é o material? <span>+</span></button>
-            <div class="faq-a">Para estudantes da área da saúde: Medicina, Fisioterapia, Enfermagem, Biomedicina,
-              Psicologia e qualquer curso que aborde neuroanatomia.</div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq2">Como recebo o material? <span>+</span></button>
-            <div class="faq-a">Acesso imediato após a confirmação do pagamento. Você recebe o link no e-mail cadastrado.
-              Material 100% digital.</div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq3">Posso imprimir os mapas? <span>+</span></button>
-            <div class="faq-a">Sim. Os mapas são em alta resolução e podem ser impressos em qualquer tamanho sem perda
-              de qualidade.</div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq4">O acesso tem validade? <span>+</span></button>
-            <div class="faq-a">Não. O acesso é vitalício incluindo atualizações futuras.</div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq5">Como funciona a garantia? <span>+</span></button>
-            <div class="faq-a">Se em até 30 dias você quiser o reembolso, basta entrar em contato. Devolução integral
-              sem questionamentos.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA FINAL -->
-    <section class="sec dark cta-final" id="ctafinal">
-      <div class="wrap cta-in">
-        <h2>Pronto para estudar Neuroanatomia de um jeito mais visual?</h2>
-        <p><strong>+75 Mapas Visuais + Guia de Estudo + Checklist de Revisão</strong><br>Tudo organizado em um único
-          material. Acesso imediato após a compra.</p>
-        <div class="final-preco">
-          <span class="de">De R$97</span>
-          <span class="por">R$29,90</span>
-        </div>
-        <a href="https://pay.cakto.com.br/puy3w3g_1046719" class="btn-main" id="cta-final"
-          onclick="fbq('track', 'InitiateCheckout');">QUERO MEU KIT AGORA</a>
-        <p class="micro">&#128274; Pagamento seguro &middot; Acesso imediato &middot; 30 dias de garantia</p>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="wrap">
-      <p>&#129504; NeuroanatomiaVisual &mdash; Material educativo para estudantes de saúde.</p>
-      <p class="ft-copy">&copy; <span id="yr"></span> NeuroanatomiaVisual. Todos os direitos reservados.</p>
+<!-- BLOCO 1: HERO -->
+<section class="hero" id="hero">
+  <div class="wrap hero-in">
+    <div class="badge-pill">&#129504; NeuroMap&#8482; &mdash; Atlas Visual</div>
+    <h1>+100 mapas visuais de <em>Neuroanatomia</em> reunidos em um &#250;nico material para facilitar sua revis&#227;o.</h1>
+    <p class="hero-sub">Conhe&#231;a o NeuroMap&#8482;: um atlas visual criado para estudantes que querem visualizar e revisar Neuroanatomia sem precisar ficar pulando entre dezenas de PDFs, slides e anota&#231;&#245;es.</p>
+    <p class="hero-body">Neuroanatomia possui muitos detalhes, estruturas e conex&#245;es que podem tornar a revis&#227;o confusa. Por isso, o NeuroMap&#8482; re&#250;ne os principais conte&#250;dos em mapas visuais organizados para ajudar voc&#234; a consultar, revisar e visualizar melhor aquilo que est&#225; estudando.</p>
+    <div class="hero-pills">
+      <span>&#10003; +100 mapas visuais</span>
+      <span>&#10003; Conte&#250;do organizado</span>
+      <span>&#10003; Material digital</span>
+      <span>&#10003; Acesso imediato</span>
     </div>
-  </footer>
-
-  <!-- STICKY CTA (mobile) -->
-  <div class="sticky" id="sticky">
-    <a href="#oferta" class="btn-main sticky-btn" id="cta-sticky">Ver Planos &mdash; a partir de R$19,90</a>
+    <a href="#oferta" class="btn-hero" id="cta-hero">Quero acessar o NeuroMap&#8482; &#8594;</a>
+    <p class="hero-micro">&#128274; Acesso imediato &middot; Pagamento seguro &middot; Garantia de 30 dias</p>
   </div>
+</section>
 
-  <script src="js/main.js"></script>
+<!-- MARQUEE 1 -->
+<section class="marquee-section" id="demo-hero">
+  <div class="marquee-wrap">
+    <div class="marquee-container">
+      <div class="marquee-track">
+        <div class="marquee-item"><img src="images/01.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/02.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/03.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/04.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/05.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/06.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/07.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/09.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/10.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/11.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/01.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/02.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/03.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/04.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/05.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/06.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/07.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/09.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/10.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/11.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 2: DEMONSTRATIVO -->
+<section class="sec sec-light" id="demonstrativo">
+  <div class="wrap">
+    <span class="eyebrow">Identifica&#231;&#227;o</span>
+    <h2>Reconhece essa situa&#231;&#227;o?</h2>
+    <p class="sec-lead" style="margin-bottom:28px;">Veja o que acontece quando voc&#234; n&#227;o tem um material centralizado.</p>
+
+    <!-- CHAOS TABS -->
+    <div class="chaos-tabs" id="chaosTabs">
+      <div class="chaos-tab active" data-tab="0">&#128196; Slide</div>
+      <div class="chaos-tab" data-tab="1">&#128209; PDF</div>
+      <div class="chaos-tab" data-tab="2">&#128218; Livro</div>
+      <div class="chaos-tab" data-tab="3">&#128241; Anota&#231;&#245;es</div>
+    </div>
+    <div class="chaos-panels">
+      <div class="chaos-panel active" data-panel="0">
+        <div class="chaos-icon">&#128196;</div>
+        <div class="chaos-label">Slide aberto</div>
+        <div class="chaos-sub">Mas a informa&#231;&#227;o que voc&#234; precisa n&#227;o est&#225; aqui&#8230;</div>
+      </div>
+      <div class="chaos-panel" data-panel="1">
+        <div class="chaos-icon">&#128209;</div>
+        <div class="chaos-label">PDF aberto</div>
+        <div class="chaos-sub">Tem conte&#250;do, mas est&#225; todo desconectado&#8230;</div>
+      </div>
+      <div class="chaos-panel" data-panel="2">
+        <div class="chaos-icon">&#128218;</div>
+        <div class="chaos-label">Cap&#237;tulo do livro</div>
+        <div class="chaos-sub">P&#225;ginas e mais p&#225;ginas, mas onde est&#225; o resumo?</div>
+      </div>
+      <div class="chaos-panel" data-panel="3">
+        <div class="chaos-icon">&#128241;</div>
+        <div class="chaos-label">Anota&#231;&#245;es pessoais</div>
+        <div class="chaos-sub">Incompletas, sem organiza&#231;&#227;o visual&#8230;</div>
+      </div>
+    </div>
+    <div class="chaos-result">
+      <span class="chaos-result-icon">&#9889;</span>
+      <strong>Resultado:</strong> V&#225;rios materiais abertos, tempo perdido, revis&#227;o sem foco.
+    </div>
+
+    <!-- CONTENT MAP -->
+    <p class="list-title" style="margin-top:32px;">Com o NeuroMap&#8482;, voc&#234; encontra tudo em um lugar:</p>
+    <div class="topic-chips">
+      <span class="topic-chip">&#129504; C&#233;rebro</span>
+      <span class="topic-chip">&#9889; SNC</span>
+      <span class="topic-chip">&#128200; Medula</span>
+      <span class="topic-chip">&#129488; Tronco</span>
+      <span class="topic-chip">&#128337; Nervos cranianos</span>
+      <span class="topic-chip">&#128260; Vias motoras</span>
+      <span class="topic-chip">&#128261; Vias sensitivas</span>
+      <span class="topic-chip">&#128149; Vasculariza&#231;&#227;o</span>
+      <span class="topic-chip">&#128279; Rela&#231;&#245;es anat&#244;micas</span>
+    </div>
+    <a href="#oferta" class="btn-sec" id="cta-demo">Quero o NeuroMap&#8482; &#8594;</a>
+  </div>
+</section>
+
+<!-- BLOCO 3: DOR -->
+<section class="sec sec-dark" id="dor">
+  <div class="wrap">
+    <span class="eyebrow">Identifica&#231;&#227;o</span>
+    <h2>Voc&#234; j&#225; estudou bastante. Mas na hora de revisar&#8230;</h2>
+
+    <!-- FLOW ANIMADO -->
+    <div class="pain-flow">
+      <div class="pain-node">
+        <div class="pain-node-icon">&#127897;</div>
+        <span>Assistiu a aula</span>
+      </div>
+      <div class="pain-arrow">&#8595;</div>
+      <div class="pain-node">
+        <div class="pain-node-icon">&#128229;</div>
+        <span>Baixou o material</span>
+      </div>
+      <div class="pain-arrow">&#8595;</div>
+      <div class="pain-node">
+        <div class="pain-node-icon">&#9999;</div>
+        <span>Fez anota&#231;&#245;es</span>
+      </div>
+      <div class="pain-arrow">&#8595;</div>
+      <div class="pain-node pain-node-end">
+        <div class="pain-node-icon">&#128561;</div>
+        <span>&#8220;Por onde eu come&#231;o?&#8221;</span>
+      </div>
+    </div>
+
+    <!-- CONEXAO VISUAL -->
+    <div class="connection-block">
+      <p class="connection-lead">Neuroanatomia &#233; sobre <strong>conex&#245;es</strong> entre:</p>
+      <div class="connection-web">
+        <div class="conn-node conn-center">&#129504;<br><small>C&#233;rebro</small></div>
+        <div class="conn-node">Estruturas</div>
+        <div class="conn-node">Localiza&#231;&#245;es</div>
+        <div class="conn-node">Vias</div>
+        <div class="conn-node">Fun&#231;&#245;es</div>
+      </div>
+      <p class="connection-footer"><strong>Sem uma vis&#227;o organizada, fica dif&#237;cil conectar tudo.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 4: ANTES X DEPOIS -->
+<section class="sec sec-light" id="comparacao">
+  <div class="wrap">
+    <span class="eyebrow">Compara&#231;&#227;o</span>
+    <h2 class="text-center">A diferen&#231;a entre estudar cercado de informa&#231;&#245;es e revisar com mais clareza.</h2>
+    <div class="comp-grid">
+      <div class="comp-card comp-bad">
+        <div class="comp-head comp-head-bad">&#10060; Antes do NeuroMap&#8482;</div>
+        <ul class="comp-list">
+          <li>Muitos arquivos diferentes.</li>
+          <li>Dificuldade para encontrar conte&#250;dos.</li>
+          <li>Revis&#245;es demoradas.</li>
+          <li>Informa&#231;&#245;es espalhadas.</li>
+          <li>Sensa&#231;&#227;o de n&#227;o conseguir conectar os assuntos.</li>
+        </ul>
+      </div>
+      <div class="comp-card comp-good">
+        <div class="comp-head comp-head-good">&#10003; Depois do NeuroMap&#8482;</div>
+        <ul class="comp-list">
+          <li>+100 mapas visuais organizados.</li>
+          <li>Um material &#250;nico para consultar.</li>
+          <li>Revis&#227;o mais pr&#225;tica.</li>
+          <li>Melhor visualiza&#231;&#227;o das estruturas.</li>
+          <li>Mais facilidade para encontrar o que precisa.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout-box text-center">
+      <p>Voc&#234; n&#227;o precisa estudar tudo novamente.</p>
+      <p><strong>Voc&#234; precisa conseguir revisar melhor.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 5: MECANISMO -->
+<section class="sec sec-dark" id="metodo">
+  <div class="wrap">
+    <span class="eyebrow">O produto</span>
+    <h2>Conhe&#231;a o <span class="acc">NeuroMap&#8482;</span></h2>
+    <p class="sec-lead">O atlas visual criado para organizar sua revis&#227;o de Neuroanatomia. Em vez de depender apenas de textos extensos, voc&#234; passa a ter uma vis&#227;o mais clara das estruturas e rela&#231;&#245;es anat&#244;micas.</p>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <div class="step-body"><strong>Visualizar</strong><p>Enxergar estruturas e conte&#250;dos de forma organizada.</p></div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <div class="step-body"><strong>Organizar</strong><p>Encontrar informa&#231;&#245;es reunidas em um &#250;nico material.</p></div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <div class="step-body"><strong>Revisar</strong><p>Consultar mapas durante seus estudos.</p></div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">4</div>
+        <div class="step-body"><strong>Fixar</strong><p>Refor&#231;ar conte&#250;dos importantes atrav&#233;s da revis&#227;o visual.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 6: BENEFICIOS -->
+<section class="sec sec-light" id="beneficios">
+  <div class="wrap">
+    <span class="eyebrow">Benef&#237;cios</span>
+    <h2>Por que ter o NeuroMap&#8482; ao lado dos seus estudos?</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon">&#129504;</div>
+        <strong>Visualize conte&#250;dos complexos</strong>
+        <p>Transforme informa&#231;&#245;es dif&#237;ceis de organizar em mapas visuais mais f&#225;ceis de consultar.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">&#128218;</div>
+        <strong>Tenha mais praticidade na revis&#227;o</strong>
+        <p>Em vez de procurar em v&#225;rios materiais diferentes, tenha conte&#250;dos reunidos em um &#250;nico atlas.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">&#128269;</div>
+        <strong>Encontre informa&#231;&#245;es com mais rapidez</strong>
+        <p>Facilite suas revis&#245;es quando precisar lembrar determinada estrutura ou rela&#231;&#227;o anat&#244;mica.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">&#127919;</div>
+        <strong>Estude com um material pensado para estudantes</strong>
+        <p>O NeuroMap&#8482; foi criado considerando a rotina de quem precisa lidar com grande quantidade de conte&#250;do.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">&#128279;</div>
+        <strong>Melhore sua compreens&#227;o visual</strong>
+        <p>Veja conex&#245;es que podem ser dif&#237;ceis de perceber apenas atrav&#233;s da leitura.</p>
+      </div>
+    </div>
+    <a href="#oferta" class="btn-sec" id="cta-beneficios">Quero acessar o NeuroMap&#8482; &#8594;</a>
+    <p class="micro-note">&#128274; Acesso imediato &middot; Garantia de 30 dias</p>
+  </div>
+</section>
+
+<!-- BLOCO 7: IDEAL PARA VOCE -->
+<section class="sec sec-dark" id="paraquem">
+  <div class="wrap">
+    <span class="eyebrow">P&#250;blico ideal</span>
+    <h2>O NeuroMap&#8482; &#233; ideal para voc&#234; que deseja:</h2>
+    <div class="ideal-list">
+      <div class="ideal-item">
+        <div class="ideal-icon">&#128193;</div>
+        <div class="ideal-body"><strong>Revisar Neuroanatomia de forma mais organizada</strong><p>Tenha um material visual para acompanhar sua prepara&#231;&#227;o e suas revis&#245;es.</p></div>
+      </div>
+      <div class="ideal-item">
+        <div class="ideal-icon">&#128196;</div>
+        <div class="ideal-body"><strong>Parar de depender apenas de textos longos</strong><p>Se voc&#234; sente dificuldade em visualizar conte&#250;dos lendo apenas p&#225;ginas e p&#225;ginas, os mapas ajudam a trazer uma nova perspectiva.</p></div>
+      </div>
+      <div class="ideal-item">
+        <div class="ideal-icon">&#9889;</div>
+        <div class="ideal-body"><strong>Ter um material r&#225;pido para consultar</strong><p>Quando surgir uma d&#250;vida durante o estudo, tenha um atlas visual para recorrer.</p></div>
+      </div>
+      <div class="ideal-item">
+        <div class="ideal-icon">&#128193;</div>
+        <div class="ideal-body"><strong>Organizar melhor seus materiais</strong><p>Se voc&#234; possui v&#225;rios PDFs, slides e anota&#231;&#245;es, tenha uma ferramenta complementar reunindo mapas importantes.</p></div>
+      </div>
+      <div class="ideal-item">
+        <div class="ideal-icon">&#129513;</div>
+        <div class="ideal-body"><strong>Visualizar estruturas e rela&#231;&#245;es anat&#244;micas</strong><p>Facilite sua compreens&#227;o sobre regi&#245;es, vias e conex&#245;es.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 8: PRODUTO + BONUS -->
+<section class="sec sec-light" id="produto">
+  <div class="wrap">
+    <span class="eyebrow">O que voc&#234; recebe</span>
+    <h2>Ao acessar o NeuroMap&#8482;, voc&#234; recebe:</h2>
+    <div class="produto-box">
+      <div class="produto-header">
+        <div class="produto-icon-wrap">&#129504;</div>
+        <div>
+          <h3>NeuroMap&#8482; &#8212; Atlas Visual de Neuroanatomia</h3>
+          <span class="produto-tag">+100 mapas visuais organizados</span>
+        </div>
+      </div>
+      <p class="produto-desc">Um material digital criado para facilitar sua revis&#227;o dos principais conte&#250;dos. Voc&#234; ter&#225; acesso a mapas relacionados a:</p>
+      <ul class="produto-topics">
+        <li><span class="chk">&#10003;</span> C&#233;rebro</li>
+        <li><span class="chk">&#10003;</span> Sistema Nervoso Central</li>
+        <li><span class="chk">&#10003;</span> Medula</li>
+        <li><span class="chk">&#10003;</span> Tronco encef&#225;lico</li>
+        <li><span class="chk">&#10003;</span> Nervos cranianos</li>
+        <li><span class="chk">&#10003;</span> Vias motoras</li>
+        <li><span class="chk">&#10003;</span> Vias sensitivas</li>
+        <li><span class="chk">&#10003;</span> Vasculariza&#231;&#227;o cerebral</li>
+        <li><span class="chk">&#10003;</span> Rela&#231;&#245;es anat&#244;micas</li>
+      </ul>
+    </div>
+    <div class="bonus-label">No <strong>Plano Completo</strong>, voc&#234; recebe ainda:</div>
+    <div class="bonus-grid">
+      <div class="bonus-card">
+        <div class="bonus-tag">&#127873; B&#212;NUS #1</div>
+        <strong>Plano de Estudos NeuroMap 14 Dias</strong>
+        <span class="bonus-val">Valor percebido: <s>R(&#127873; B&#212;NUS #1 Plano de Estudos NeuroMap 14 Dias R$19 Um roteiro organizado para ajudar voc&#234; a seguir uma sequ&#234;ncia de revis&#227;o.[2])</s></span>
+        <p>Um roteiro organizado para ajudar voc&#234; a seguir uma sequ&#234;ncia de revis&#227;o.</p>
+      </div>
+      <div class="bonus-card">
+        <div class="bonus-tag">&#127873; B&#212;NUS #2</div>
+        <strong>Checklist Pr&#233;-Prova Neuro</strong>
+        <span class="bonus-val">Valor percebido: <s>R(&#127873; B&#212;NUS #2 Checklist Pr&#233;-Prova Neuro R$17 Uma lista pr&#225;tica para acompanhar os conte&#250;dos revisados.[2])</s></span>
+        <p>Uma lista pr&#225;tica para acompanhar os conte&#250;dos revisados.</p>
+      </div>
+      <div class="bonus-card">
+        <div class="bonus-tag">&#127873; B&#212;NUS #3</div>
+        <strong>Banco de Quest&#245;es R&#225;pidas Neuro</strong>
+        <span class="bonus-val">Valor percebido: <s>R(&#127873; B&#212;NUS #3 Banco de Quest&#245;es R&#225;pidas Neuro R$27 Perguntas r&#225;pidas para testar identifica&#231;&#227;o, associa&#231;&#227;o e localiza&#231;&#227;o.[2])</s></span>
+        <p>Perguntas r&#225;pidas para testar identifica&#231;&#227;o, associa&#231;&#227;o e localiza&#231;&#227;o.</p>
+      </div>
+      <div class="bonus-card">
+        <div class="bonus-tag">&#127873; B&#212;NUS #4</div>
+        <strong>Guia Como Revisar Neuroanatomia Sem Travar</strong>
+        <span class="bonus-val">Valor percebido: <s>R(&#127873; B&#212;NUS #4 Guia Como Revisar Neuroanatomia Sem Travar R$19 Um guia com estrat&#233;gias para aproveitar melhor mapas visuais.[2])</s></span>
+        <p>Um guia com estrat&#233;gias para aproveitar melhor mapas visuais.</p>
+      </div>
+    </div>
+    <div class="marquee-container" style="margin-top:40px;">
+      <div class="marquee-track marquee-reverse">
+        <div class="marquee-item"><img src="images/08.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/09.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/10.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/11.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/12.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/13.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/14.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/15.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/16.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/17.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/08.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/09.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/10.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/11.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/12.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/13.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/14.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/15.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/16.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+        <div class="marquee-item"><img src="images/17.jpeg" alt="NeuroMap demo" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 9: OFERTA -->
+<section class="sec sec-offer" id="oferta">
+  <div class="wrap">
+    <span class="eyebrow" style="display:block;text-align:center;margin-bottom:12px;">Oferta especial</span>
+    <h2 class="text-center">Escolha como voc&#234; quer come&#231;ar sua revis&#227;o.</h2>
+    <p class="text-center sec-lead" style="margin-bottom:40px;">Pagamento &#250;nico &middot; Acesso imediato &middot; Garantia de 30 dias</p>
+    <div class="pricing-duo">
+      <div class="price-card price-basic">
+        <div class="price-badge">PLANO ESSENCIAL</div>
+        <div class="price-title">NeuroMap&#8482;</div>
+        <p class="price-desc">Para quem quer apenas o Atlas Visual.</p>
+        <img src="images/mockupsimples.png" alt="NeuroMap Essencial" class="price-img">
+        <ul class="price-items">
+          <li><span class="chk">&#10003;</span> NeuroMap&#8482; Atlas Visual</li>
+          <li><span class="chk">&#10003;</span> +100 mapas visuais de Neuroanatomia</li>
+          <li><span class="chk">&#10003;</span> Material digital &middot; Acesso imediato</li>
+        </ul>
+        <div class="price-block">
+          <div class="price-from">De <s>R$47</s></div>
+          <div class="price-main">R$<strong>19</strong><span class="price-cents">,90</span></div>
+          <div class="price-note">Pagamento &#250;nico</div>
+        </div>
+        <a href="https://pay.cakto.com.br/3fvsy4d" class="btn-basic-price" id="cta-essencial">Quero o Plano Essencial</a>
+      </div>
+      <div class="price-card price-pro">
+        <div class="price-pro-top">&#11088; MAIS ESCOLHIDO</div>
+        <div class="price-badge" style="color:var(--acc);">PLANO COMPLETO</div>
+        <div class="price-title">NeuroMap&#8482; + B&#244;nus</div>
+        <p class="price-desc">O pacote completo para sua revis&#227;o.</p>
+        <img src="images/mockupcompleto.png" alt="NeuroMap Completo" class="price-img">
+        <ul class="price-items">
+          <li><span class="chk">&#10003;</span> NeuroMap&#8482; Atlas Visual</li>
+          <li><span class="chk">&#10003;</span> +100 mapas visuais</li>
+          <li><span class="chk-gold">&#127873;</span> Plano de Estudos 14 Dias</li>
+          <li><span class="chk-gold">&#127873;</span> Checklist Pr&#233;-Prova Neuro</li>
+          <li><span class="chk-gold">&#127873;</span> Banco de Quest&#245;es R&#225;pidas</li>
+          <li><span class="chk-gold">&#127873;</span> Guia de Revis&#227;o Estrat&#233;gica</li>
+        </ul>
+        <div class="price-perceived">Valor percebido: <s>R$129</s></div>
+        <div class="price-block">
+          <div class="price-main price-main-gold">R$<strong>29</strong><span class="price-cents">,90</span></div>
+          <div class="price-note">Pagamento &#250;nico</div>
+        </div>
+        <a href="https://pay.cakto.com.br/rfet3nn" class="btn-pro-price" id="cta-completo">&#129504; Quero o Plano Completo</a>
+        <p class="price-secure">&#128274; Pagamento seguro &middot; Dados protegidos</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 10: GARANTIA -->
+<section class="sec sec-light" id="garantia">
+  <div class="wrap">
+    <div class="garantia-box">
+      <div class="garantia-badge">
+        <div class="garantia-shield">&#128737;</div>
+        <div class="garantia-days">30<small>dias</small></div>
+      </div>
+      <div class="garantia-txt">
+        <h2>Garantia NeuroSemRisco de 30 Dias</h2>
+        <p>Voc&#234; pode acessar o NeuroMap&#8482;, conhecer o material e avaliar se ele faz sentido para sua rotina de estudos.</p>
+        <p>Durante 30 dias, voc&#234; poder&#225; utilizar o produto. Se perceber que o NeuroMap&#8482; n&#227;o &#233; adequado para voc&#234;, basta solicitar o reembolso dentro do prazo da garantia.</p>
+        <p><strong>Sem risco. Sem complica&#231;&#227;o.</strong></p>
+        <a href="#oferta" class="btn-sec" id="cta-gar">Come&#231;ar com Garantia &#8594;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 11: FAQ -->
+<section class="sec sec-dark" id="faq">
+  <div class="wrap">
+    <span class="eyebrow">D&#250;vidas</span>
+    <h2>Perguntas frequentes</h2>
+    <div class="faq-list" id="faqList">
+      <div class="faq-item">
+        <button class="faq-q" id="fq1">O que &#233; o NeuroMap&#8482;? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">O NeuroMap&#8482; &#233; um atlas visual de Neuroanatomia com +100 mapas organizados para auxiliar estudantes durante suas revis&#245;es.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq2">O NeuroMap&#8482; &#233; um curso? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">N&#227;o. &#201; um material digital de apoio para revis&#227;o.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq3">Qual a diferen&#231;a entre os planos? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">O Plano Essencial possui apenas o NeuroMap&#8482;. O Plano Completo inclui o NeuroMap&#8482; e todos os b&#244;nus (Plano de Estudos 14 Dias, Checklist Pr&#233;-Prova, Banco de Quest&#245;es R&#225;pidas e Guia de Revis&#227;o).</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq4">O acesso &#233; imediato? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">Sim. Ap&#243;s a confirma&#231;&#227;o da compra, voc&#234; recebe as instru&#231;&#245;es de acesso.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq5">Preciso imprimir o material? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">N&#227;o. O material pode ser utilizado digitalmente.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq6">Posso acessar pelo celular? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">Sim, utilizando um dispositivo compat&#237;vel.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq7">O NeuroMap&#8482; substitui aulas e livros? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">N&#227;o. Ele funciona como ferramenta complementar de revis&#227;o.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq8">O pagamento &#233; &#250;nico? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">Sim. Voc&#234; paga uma &#250;nica vez.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq9">Existe garantia? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">Sim. Garantia NeuroSemRisco de 30 dias.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" id="fq10">Para quem o NeuroMap&#8482; &#233; indicado? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-in">Para estudantes que desejam revisar Neuroanatomia com uma abordagem mais visual e organizada.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 12: CTA FINAL -->
+<section class="sec sec-cta" id="ctafinal">
+  <div class="wrap cta-final-in">
+    <h2>Sua revis&#227;o de Neuroanatomia n&#227;o precisa continuar espalhada em dezenas de arquivos.</h2>
+    <div class="cta-pills">
+      <span>&#129504; +100 mapas visuais</span>
+      <span>&#128218; Um atlas organizado</span>
+      <span>&#127919; Ferramenta pr&#225;tica para revisar</span>
+    </div>
+    <p class="cta-choose">Escolha seu plano:</p>
+    <div class="cta-btns">
+      <a href="https://pay.cakto.com.br/3fvsy4d" class="btn-outline-cta" id="cta-final-ess">NeuroMap Essencial &mdash; R$19,90</a>
+      <a href="https://pay.cakto.com.br/rfet3nn" class="btn-hero" id="cta-final">&#129504; NeuroMap Completo &mdash; R$29,90</a>
+    </div>
+    <p class="micro-note">Come&#231;e agora sua revis&#227;o visual.</p>
+    <p class="micro-note">&#128274; Pagamento seguro &middot; Acesso imediato &middot; 30 dias de garantia</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer" id="footer">
+  <div class="wrap footer-in">
+    <p class="footer-brand">&#129504; NeuroMap&#8482;</p>
+    <p class="footer-desc">Material digital de apoio ao estudo e revis&#227;o de Neuroanatomia.</p>
+    <p class="footer-legal">O NeuroMap&#8482; possui finalidade educacional complementar e n&#227;o substitui aulas, livros ou orienta&#231;&#227;o acad&#234;mica. Todos os direitos sobre a obra &#8220;NeuroMap&#8482;&#8221; s&#227;o reservados ao NeuroMap&#8482;, nos termos da Lei n&#186; 9.610/98 (Lei de Direitos Autorais). A reprodu&#231;&#227;o n&#227;o autorizada desta publica&#231;&#227;o, no todo ou em parte, por quaisquer meios, constitui viola&#231;&#227;o dos direitos autorais (Art. 184 do C&#243;digo Penal e Lei 9.610/98).</p>
+    <p class="footer-copy">&copy; 2026 NeuroMap&#8482;. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky">
+  <a href="#oferta" class="btn-hero sticky-btn" id="cta-sticky">&#129504; Acessar o NeuroMap&#8482; &mdash; A partir de R$19,90</a>
+</div>
+
+<script src="js/main.js"></script>
 </body>
-
 </html>
+
+
