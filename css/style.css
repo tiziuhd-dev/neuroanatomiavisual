@@ -1110,3 +1110,30 @@ img { display: block; max-width: 100%; height: auto; }
   margin-top: 16px;
 }
 .connection-footer strong { color: var(--acc); }
+
+/* PAIN QUOTE (novo bloco emocional no bloco dor) */
+.pain-quote {
+  background: rgba(239,68,68,.07);
+  border-left: 3px solid #ef4444;
+  border-radius: 0 var(--r) var(--r) 0;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.pain-quote p { font-size: .93rem; color: var(--muted); line-height: 1.6; }
+.pain-quote strong { color: #f87171; }
+
+/* AUTHORITY BLOCK */
+.authority-block {
+  background: var(--bg3);
+  border: 1px solid var(--bdr);
+  border-radius: var(--r2);
+  padding: 24px 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.authority-block p { font-size: .92rem; color: var(--muted); line-height: 1.7; }
