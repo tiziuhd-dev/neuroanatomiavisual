@@ -1203,3 +1203,9 @@ img { display: block; max-width: 100%; height: auto; }
 
 .bonus-img { width: 100%; border-radius: 8px; margin-top: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
 
+
+/* IDENTIFICATION LIST */
+.ident-list { display: flex; flex-direction: column; gap: 14px; max-width: 700px; margin: 0 auto; text-align: left; }
+.ident-list li { background: var(--sec-bg2); border: 1px solid var(--sec-bdr); padding: 18px 24px; border-radius: var(--r); color: var(--sec-txt); font-weight: 600; font-size: 1.05rem; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+@media(max-width:600px){ .ident-list li { font-size: 0.95rem; padding: 14px 18px; } }
+
