@@ -79,15 +79,15 @@ img { display: block; max-width: 100%; height: auto; }
   gap: 4px;
 }
 .top-bar-timer {
-  background: #fff;
-  color: #ea6c00;
+  background: transparent;
+  color: #fff;
   padding: 9px 20px;
   flex: 1;
   text-align: center;
 }
 .top-bar-timer strong {
-  color: #ea6c00;
-  background: rgba(234,108,0,.12);
+  color: #fff;
+  background: rgba(255,255,255,0.2);
   padding: 1px 8px;
   border-radius: 4px;
   letter-spacing: .1em;
