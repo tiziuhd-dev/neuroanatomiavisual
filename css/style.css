@@ -104,7 +104,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* =============================================
    SECOES BASE
    ============================================= */
-.sec { padding: 32px 0; }
+.sec { padding: 24px 0; }
 
 .sec-dark {
   --sec-bg: var(--bg-dark);
@@ -141,19 +141,19 @@ img { display: block; max-width: 100%; height: auto; }
   --sec-muted: var(--muted-light);
   
   background: var(--bg-dark2);
-  padding: 48px 0;
+  padding: 32px 0;
   color: var(--sec-txt);
 }
 .sec-offer p { color: var(--sec-muted); }
 
 .sec-cta   {
-  padding: 48px 0;
+  padding: 32px 0;
   background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(245,158,11,.13), transparent 70%), var(--bg-dark2);
   color: var(--txt-light);
 }
 .sec-cta p { color: var(--muted-light); }
 
-@media(min-width:900px) { .sec { padding: 40px 0; } }
+@media(min-width:900px) { .sec { padding: 32px 0; } }
 
 /* EYEBROW / LABEL */
 .eyebrow {
@@ -176,7 +176,7 @@ img { display: block; max-width: 100%; height: auto; }
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 .sec-header h2 { margin: 0; }
 
@@ -392,7 +392,7 @@ img { display: block; max-width: 100%; height: auto; }
 .marquee-section {
   background: var(--bg-light);
   color: var(--txt-dark);
-  padding: 28px 0 40px;
+  padding: 20px 0 28px;
   overflow: hidden;
 }
 .marquee-wrap { max-width: 100%; }
