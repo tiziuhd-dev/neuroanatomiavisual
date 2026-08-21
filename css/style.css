@@ -1209,3 +1209,11 @@ img { display: block; max-width: 100%; height: auto; }
 .ident-list li { background: var(--sec-bg2); border: 1px solid var(--sec-bdr); padding: 18px 24px; border-radius: var(--r); color: var(--sec-txt); font-weight: 600; font-size: 1.05rem; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
 @media(max-width:600px){ .ident-list li { font-size: 0.95rem; padding: 14px 18px; } }
 
+
+/* NOVO BLOCO IDENTIFICACAO SIMPLES */
+.ideal-for-list { display: flex; flex-direction: column; gap: 12px; max-width: 700px; margin: 0 auto; }
+.ideal-for-item { display: flex; align-items: center; gap: 16px; background: var(--sec-card); border: 1px solid var(--sec-bdr); border-radius: var(--r); padding: 18px 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.2s; }
+.ideal-for-item:hover { transform: translateY(-2px); border-color: var(--acc); }
+.ideal-for-item p { margin: 0; font-size: 1.05rem; font-weight: 700; color: var(--sec-txt); }
+.ideal-for-item .chk-gold { font-size: 1.2rem; }
+
