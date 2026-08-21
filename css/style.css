@@ -328,6 +328,54 @@ img { display: block; max-width: 100%; height: auto; }
   text-align: center;
 }
 
+.hero-social-proof {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.hero-social-text {
+  font-size: 1.05rem;
+  color: var(--txt-light);
+}
+.hero-social-text strong {
+  color: #fff;
+  font-weight: 700;
+}
+.hero-social-faces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 100px;
+}
+.social-face {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-dark);
+  margin-left: -10px;
+  object-fit: cover;
+}
+.social-face:first-child {
+  margin-left: 0;
+}
+.hero-social-badge {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #fff;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 8px 32px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 4px;
+}
+
 /* =============================================
    MARQUEE
    ============================================= */
