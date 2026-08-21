@@ -272,6 +272,38 @@ img { display: block; max-width: 100%; height: auto; }
   line-height: 1.7;
   text-align: left;
 }
+.hero-features-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  max-width: 800px;
+  margin: 10px auto 16px auto;
+  width: 100%;
+}
+@media (min-width: 680px) {
+  .hero-features-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.hero-feature-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--r);
+  padding: 16px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  transition: border-color .2s;
+}
+.hero-feature-card:hover {
+  border-color: rgba(255,255,255,0.15);
+}
+.hero-feature-card p {
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 0;
+}
 .hero-pills {
   display: flex;
   flex-wrap: wrap;
