@@ -104,7 +104,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* =============================================
    SECOES BASE
    ============================================= */
-.sec { padding: 24px 0; }
+.sec { padding: 20px 0; }
 
 .sec-dark {
   --sec-bg: var(--bg-dark);
@@ -153,7 +153,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .sec-cta p { color: var(--muted-light); }
 
-@media(min-width:900px) { .sec { padding: 32px 0; } }
+@media(min-width:900px) { .sec { padding: 28px 0; } }
 
 /* EYEBROW / LABEL */
 .eyebrow {
@@ -246,7 +246,7 @@ img { display: block; max-width: 100%; height: auto; }
    HERO
    ============================================= */
 .hero {
-  padding: 56px 0 44px;
+  padding: 36px 0 28px;
   background: radial-gradient(ellipse 90% 50% at 50% 0%, rgba(59,130,246,.1), transparent 65%), var(--bg);
 }
 .hero-in {
@@ -1043,7 +1043,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 @media(min-width:900px) {
   :root { --wrap: 760px; }
-  .sec { padding: 80px 0; }
+  .sec { padding: 52px 0; }
   .steps-grid { display: grid; grid-template-columns: 1fr 1fr; }
 }
 
@@ -1307,3 +1307,45 @@ img { display: block; max-width: 100%; height: auto; }
 .ideal-for-item p { margin: 0; font-size: 1.05rem; font-weight: 700; color: var(--sec-txt); }
 .ideal-for-item .chk-gold { font-size: 1.2rem; }
 
+/* =============================================
+   MOBILE SPACING OPTIMIZATION
+   ============================================= */
+@media(max-width:768px) {
+  /* Seções */
+  .sec { padding: 18px 0; }
+  .sec-offer { padding: 18px 0; }
+  .sec-cta { padding: 18px 0; }
+  .marquee-section { padding: 12px 0 16px; }
+
+  /* Hero */
+  .hero { padding: 24px 0 18px; }
+  .hero-in { gap: 10px; }
+  .hero-mockup-img { margin: 10px 0; }
+  .hero-social-proof { margin-top: 10px; gap: 8px; }
+
+  /* Cabeçalhos de seção */
+  .sec-header { margin-bottom: 14px; }
+
+  /* Grids internos */
+  .benefits-grid { margin-top: 14px; gap: 10px; }
+  .comp-grid { margin-top: 14px !important; gap: 12px; }
+  .bonus-grid { gap: 10px; margin-bottom: 4px; }
+  .faq-list { margin-top: 14px; gap: 6px; }
+  .ideal-list { margin-top: 12px; gap: 10px; }
+  .steps-grid { margin-top: 14px; }
+  .pricing-duo { gap: 16px; }
+
+  /* Cards e boxes internos */
+  .produto-box { margin-top: 14px; padding: 18px 16px; }
+  .callout-box { margin-top: 14px; padding: 16px 14px; }
+  .garantia-box { padding: 18px 14px; gap: 14px; }
+  .bonus-card { padding: 14px 12px; }
+  .benefit-card { padding: 14px 12px; }
+  .ideal-item { padding: 14px 12px; }
+  .step-card { padding: 14px 12px; }
+
+  /* Botões e micro-notas */
+  .btn-sec { margin-top: 18px; }
+  .micro-note { margin-top: 6px; }
+  .bonus-label { padding: 12px 0 8px; }
+}
