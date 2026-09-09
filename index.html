@@ -2,479 +2,660 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NeuroMap&#8482; &#8212; Atlas Visual de Neuroanatomia (+100 Mapas)</title>
-  <meta name="description"
-    content="Mais de 100 mapas visuais de Neuroanatomia reunidos em um unico material digital. Visualize, organize e revise os principais conteudos sem pulando entre dezenas de PDFs e anotacoes.">
-  <meta name="theme-color" content="#06111f">
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-    onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
-  </noscript>
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Meta Pixel -->
-  <script>!function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = "2.0"; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "1012551918267192"); fbq("track", "PageView");</script>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1785550736120680');
+    fbq('track', 'PageView');
+  </script>
   <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1012551918267192&ev=PageView&noscript=1" /></noscript>
+      src="https://www.facebook.com/tr?id=1785550736120680&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description"
+    content="10 Exercícios Ilustrados de Reabilitação para aliviar tontura e ganhar equilíbrio nos movimentos em casa. Guia completo e prático para quem sofre de labirintite." />
+  <title>Guia de Equilíbrio — Alivie a Tontura em Casa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class="top-bar">
-    <div class="top-bar-inner wrap">
-      <span class="top-bar-timer">&#9201; Oferta expira em: <strong id="countdown">10:00</strong></span>
-      <span class="top-bar-safe">&#128274; Compra 100% segura &middot; Acesso imediato</span>
+
+  <!-- ① BARRA DE TOPO -->
+  <div class="topbar">
+    <div class="topbar__inner">
+      <span class="topbar__timer">
+        ⏳ OFERTA EXPIRA EM: <strong id="countdown">08:00</strong>
+      </span>
+      <span class="topbar__divider">|</span>
+      <span class="topbar__trust">
+        🔒 COMPRA 100% SEGURA — ACESSO IMEDIATO
+      </span>
     </div>
   </div>
-  <main>
 
-    <!-- BLOCO 1: HERO -->
-    <section class="hero" id="hero">
-      <div class="wrap hero-in">
-        <div class="badge-pill">&#129504; NeuroMap&#8482; &mdash; Atlas Visual</div>
-        <h1><span class="acc">Pare de se perder</span> em <span class="acc">Neuroanatomia</span> tentando decorar estruturas soltas que n&#227;o fazem sentido na sua cabe&#231;a.</h1>
-        <p class="hero-sub">O NeuroMap transforma uma das mat&#233;rias mais complexas da &#225;rea da sa&#250;de em mapas visuais organizados, ajudando voc&#234; a enxergar conex&#245;es entre estruturas, fun&#231;&#245;es e regi&#245;es do sistema nervoso de forma muito mais simples e f&#225;cil de revisar.</p>
+  <!-- ② HERO -->
+  <header class="hero">
+    <div class="wrap hero__wrap">
 
-        <div class="hero-pills">
-          <span>&#10003; +100 mapas visuais</span>
-          <span>&#10003; Conte&#250;do organizado</span>
-          <span>&#10003; Material digital</span>
-          <span>&#10003; Acesso imediato</span>
-        </div>
-        <img src="images/mockupcompleto.png" alt="Mockup NeuroMap Completo" class="hero-mockup-img">
-        <a href="#oferta" class="btn-hero" id="cta-hero">&#129504; Quero dominar Neuroanatomia com mapas visuais</a>
-        <div class="hero-social-proof">
-          <p class="hero-social-text">Voc&#234; recebe tudo na hora, direto no seu <strong>&#128231; e-mail</strong></p>
-          <div class="hero-social-faces">
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop" alt="Aluno"
-              class="social-face">
-            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop" alt="Aluno"
-              class="social-face">
-            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=100&h=100&fit=crop" alt="Aluno"
-              class="social-face">
-            <img src="https://images.unsplash.com/photo-1594824432258-29931b26943b?w=100&h=100&fit=crop" alt="Aluno"
-              class="social-face">
-            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=100&h=100&fit=crop" alt="Aluno"
-              class="social-face">
-          </div>
-          <div class="hero-social-badge">MAIS DE 1.250 ALUNOS!</div>
-        </div>
+      <span class="eyebrow">✦ Produto para você que sofre de tontura por conta de Labirintite, Vertigem, tontura
+        postural e etc...</span>
+      <h1>
+        10 Exercícios <em>Ilustrados</em> para<br>
+        Aliviar a <em>Tontura</em> e Ganhar<br>
+        Equilíbrio <em>em Casa</em>
+      </h1>
+      <p class="hero-sub">
+        Um guia prático, validado por especialistas, para quem sofre de labirintite
+        ou tontura — sem sair de casa, sem equipamentos.
+      </p>
+
+      <!-- Mockup centralizado no meio -->
+      <div class="hero__mockup">
+        <img src="images/MOCKUP PNG.png" alt="Guia de Equilíbrio em Casa — mockup do produto" class="hero__mockup-img"
+          loading="eager" />
       </div>
-    </section>
 
-    <!-- MARQUEE 1 -->
-    <section class="marquee-section" id="demo-hero">
-      <div class="marquee-intro wrap" style="text-align:center;padding-top:32px;">
-        <h2 style="font-size:clamp(1.1rem,3vw,1.45rem);margin-bottom:8px;">Veja como a Neuroanatomia fica muito mais
-          simples quando voc&#234; consegue enxergar as conex&#245;es</h2>
-      </div>
-      <div class="marquee-wrap">
-        <div class="marquee-container">
-          <div class="marquee-track">
-            <div class="marquee-item"><img src="images/01.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/02.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/03.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/04.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/05.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/06.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/07.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/09.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/10.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/11.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/01.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/02.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/03.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/04.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/05.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/06.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/07.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/09.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/10.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/11.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+      <!-- Botão CTA e Garantias empilhados abaixo do Mockup -->
+      <a href="#planos" class="cta-btn" id="hero-cta">QUERO MEU GUIA AGORA →</a>
+
+      <!-- Bloco de Entrega WhatsApp/Email + Alunos -->
+      <div class="hero-delivery">
+        <div class="hero-delivery__text">
+          Você recebe tudo na hora, direto no seu<br>
+          <strong>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366"
+              style="vertical-align:-3px; display:inline-block;">
+              <path
+                d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.78 2.71 4.3 3.8.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29z" />
+            </svg>
+            WhatsApp e no seu
+            <svg width="20" height="20" viewBox="0 0 24 24" style="vertical-align:-3px; display:inline-block;">
+              <path fill="#EA4335"
+                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+            </svg>
+            e-mail
+          </strong>
+        </div>
+
+        <div class="hero-delivery__avatars-box">
+          <div class="hero-delivery__avatars">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=faces"
+              alt="Aluna" />
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces"
+              alt="Aluno" />
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces"
+              alt="Aluna" />
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=faces"
+              alt="Aluno" />
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop&crop=faces"
+              alt="Aluna" />
           </div>
         </div>
+
+        <div class="hero-delivery__badge">
+          MAIS DE 1.254 ALUNOS!
+        </div>
       </div>
-      <div class="marquee-wrap" style="margin-top: 16px;">
-        <div class="marquee-container">
-          <div class="marquee-track marquee-reverse">
-            <div class="marquee-item"><img src="images/01.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/02.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/03.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/04.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/05.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/06.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/07.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/09.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/10.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/11.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/01.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/02.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/03.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/04.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/05.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/06.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/07.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/09.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/10.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
-            <div class="marquee-item"><img src="images/11.jpeg" alt="Mapa Visual NeuroMap" loading="lazy"></div>
+
+      <div class="trust-row">
+        <span>✅ Acesso Imediato</span>
+        <span>🔒 Compra Segura</span>
+        <span>🛡️ Garantia 7 Dias</span>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ③ PROOF BAR -->
+  <div class="proof-bar">
+    <div class="wrap proof-bar__inner">
+      <span>⭐ <strong>4.9 de 5</strong> estrelas</span>
+      <span class="divider">|</span>
+      <span>👥 <strong>+3.800</strong> pessoas atendidas</span>
+      <span class="divider">|</span>
+      <span>📱 Acesso no <strong>celular</strong></span>
+    </div>
+  </div>
+
+  <!-- ④ MOSTRAR O MATERIAL POR DENTRO (2 FILEIRAS: ESQUERDA E DIREITA) -->
+  <section class="section bg-a section-showcase-inside" id="paginas">
+    <div class="wrap">
+      <div class="section-head section-head--center">
+        <span class="label">Por dentro do guia</span>
+        <h2>Veja como são os materiais por dentro</h2>
+        <p>+ de 10 exercícios e rotinas ilustradas que mostram passo a passo de forma simples e visual</p>
+      </div>
+    </div>
+
+    <div class="marquee-container">
+      <!-- Fileira 1: passando para a ESQUERDA -->
+      <div class="marquee-row marquee-row--left">
+        <div class="marquee-track">
+          <div class="marquee-card"><img src="images/pagina_01_boas_vindas_premium.png" alt="Página 01 — Boas-vindas"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_06_exercicio_02_movimento_lento_da_cabeca_premium.png"
+              alt="Exercício 2" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_12_exercicio_08_mudanca_de_posicao_premium.png"
+              alt="Exercício 8" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_16_checklist_diario_premium.png" alt="Checklist Diário"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_17_sete_habitos_premium.png" alt="7 Hábitos"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_18_rotina_de_cinco_minutos_premium.png"
+              alt="Rotina de 5 min" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_20_aviso_importante_premium.png" alt="Aviso Importante"
+              loading="lazy" /></div>
+          <!-- Duplicata para loop infinito suave -->
+          <div class="marquee-card"><img src="images/pagina_01_boas_vindas_premium.png" alt="Página 01 — Boas-vindas"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_06_exercicio_02_movimento_lento_da_cabeca_premium.png"
+              alt="Exercício 2" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_12_exercicio_08_mudanca_de_posicao_premium.png"
+              alt="Exercício 8" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_16_checklist_diario_premium.png" alt="Checklist Diário"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_17_sete_habitos_premium.png" alt="7 Hábitos"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_18_rotina_de_cinco_minutos_premium.png"
+              alt="Rotina de 5 min" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_20_aviso_importante_premium.png" alt="Aviso Importante"
+              loading="lazy" /></div>
+        </div>
+      </div>
+
+      <!-- Fileira 2: passando para a DIREITA -->
+      <div class="marquee-row marquee-row--right">
+        <div class="marquee-track">
+          <div class="marquee-card"><img src="images/pagina_16_checklist_diario_premium.png" alt="Checklist Diário"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_17_sete_habitos_premium.png" alt="7 Hábitos"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_18_rotina_de_cinco_minutos_premium.png"
+              alt="Rotina de 5 min" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_20_aviso_importante_premium.png" alt="Aviso Importante"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_01_boas_vindas_premium.png" alt="Página 01 — Boas-vindas"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_06_exercicio_02_movimento_lento_da_cabeca_premium.png"
+              alt="Exercício 2" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_12_exercicio_08_mudanca_de_posicao_premium.png"
+              alt="Exercício 8" loading="lazy" /></div>
+          <!-- Duplicata para loop infinito suave -->
+          <div class="marquee-card"><img src="images/pagina_16_checklist_diario_premium.png" alt="Checklist Diário"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_17_sete_habitos_premium.png" alt="7 Hábitos"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_18_rotina_de_cinco_minutos_premium.png"
+              alt="Rotina de 5 min" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_20_aviso_importante_premium.png" alt="Aviso Importante"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_01_boas_vindas_premium.png" alt="Página 01 — Boas-vindas"
+              loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_06_exercicio_02_movimento_lento_da_cabeca_premium.png"
+              alt="Exercício 2" loading="lazy" /></div>
+          <div class="marquee-card"><img src="images/pagina_12_exercicio_08_mudanca_de_posicao_premium.png"
+              alt="Exercício 8" loading="lazy" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ TUDO QUE VAI RECEBER — 100% EMPILHADO -->
+  <section class="section bg-b" id="receber">
+    <div class="wrap showcase-wrap">
+
+      <div class="section-head section-head--center">
+        <span class="label">Conteúdo completo</span>
+        <h2>Tudo que você vai receber</h2>
+        <p class="showcase-sub">Materiais exclusivos para acelerar sua recuperação</p>
+      </div>
+
+      <div class="showcase-img">
+        <img src="images/MOCKUP NA MESA.png" alt="Guia de Equilíbrio em Casa — todos os materiais na mesa"
+          loading="lazy" />
+      </div>
+
+      <div class="showcase-content">
+        <div class="receive-list">
+          <div class="receive-item">
+            <div class="receive-item__badge">📗</div>
+            <div>
+              <strong>Guia de Equilíbrio Completo</strong>
+              <p>E-book com 10 exercícios ilustrados de reabilitação vestibular</p>
+            </div>
+          </div>
+          <div class="receive-item">
+            <div class="receive-item__badge">📋</div>
+            <div>
+              <strong>Checklist de Acompanhamento</strong>
+              <p>Organize sua evolução dia a dia de forma simples e prática</p>
+            </div>
+          </div>
+          <div class="receive-item">
+            <div class="receive-item__badge">🎯</div>
+            <div>
+              <strong>Protocolo de Segurança</strong>
+              <p>Como executar os exercícios sem risco de queda ou lesão</p>
+            </div>
+          </div>
+          <div class="receive-item">
+            <div class="receive-item__badge">💡</div>
+            <div>
+              <strong>Dicas Nutricionais Bônus</strong>
+              <p>Alimentos que ajudam a controlar a labirintite naturalmente</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-btn" style="margin-top: 28px;">
+          <a href="#planos" class="cta-btn">QUERO MEU GUIA AGORA →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ⑥ DADOS / PROBLEMA -->
+  <section class="section bg-orange" id="problema">
+    <div class="wrap">
+      <div class="section-head section-head--center">
+        <span class="label label--glass">Você sabia?</span>
+        <h2>Quantas atividades você deixa de fazer por causa da tontura?</h2>
+      </div>
+      <div class="stats-row">
+        <div class="stat">
+          <span class="stat__num">3<small>/10</small></span>
+          <span class="stat__txt">pessoas sofrem com tontura de forma frequente</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">7x</span>
+          <span class="stat__txt">mais propensas a sofrer quedas no dia a dia</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">90%</span>
+          <span class="stat__txt">dos casos melhoram com exercícios de reabilitação corretos</span>
+        </div>
+      </div>
+      <div class="center-btn">
+        <a href="#planos" class="cta-btn cta-btn--white" id="prob-cta">QUERO RESOLVER ISSO AGORA →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑦ PARA QUEM É -->
+  <section class="section bg-a" id="para-quem">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="label">Para quem é</span>
+        <h2>Este guia é ideal para você que:</h2>
+      </div>
+      <div class="ideal-grid">
+        <div class="ideal-card">
+          <span>🤕</span>
+          <p>Sofre de tontura, labirintite ou vertigem frequente</p>
+        </div>
+        <div class="ideal-card">
+          <span>😰</span>
+          <p>Tem medo de cair e se machucar durante as atividades do dia a dia</p>
+        </div>
+        <div class="ideal-card">
+          <span>💊</span>
+          <p>Quer recuperar o equilíbrio sem depender apenas de remédios</p>
+        </div>
+        <div class="ideal-card">
+          <span>🏠</span>
+          <p>Precisa de uma solução prática e acessível para fazer em casa</p>
+        </div>
+        <div class="ideal-card">
+          <span>💰</span>
+          <p>Quer resultados reais sem gastar fortunas em sessões presenciais</p>
+        </div>
+        <div class="ideal-card">
+          <span>😤</span>
+          <p>Está cansada(o) de conviver com a limitação que a tontura causa</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑧ BÔNUS -->
+  <section class="section bg-b" id="bonus">
+    <div class="wrap">
+      <div class="section-head section-head--center">
+        <span class="label-orange">🎁 E não para por aí... tem mais!</span>
+        <h2>Bônus exclusivos inclusos</h2>
+        <p>Sem custo adicional, tudo na mesma compra</p>
+      </div>
+      <div class="bonus-grid">
+
+        <div class="bonus-card">
+          <div class="bonus-card__header">
+            <span>Bônus 01</span>
+            <span>Valor: R$ 27,00</span>
+          </div>
+          <img src="images/bonus 1.png" alt="Bônus 01 — Plano de Estudos 14 Dias" class="bonus-card__img"
+            loading="lazy" />
+          <div class="bonus-card__body">
+            <strong>Plano de Estudos 14 Dias para Revisar e Fixar</strong>
+            <p>Um roteiro diário para você revisar, organizar e fixar os conteúdos essenciais com mais disciplina</p>
+          </div>
+        </div>
+
+        <div class="bonus-card">
+          <div class="bonus-card__header">
+            <span>Bônus 02</span>
+            <span>Valor: R$ 17,00</span>
+          </div>
+          <img src="images/bonus 2.png" alt="Bônus 02 — Checklist Pré-Prática" class="bonus-card__img" loading="lazy" />
+          <div class="bonus-card__body">
+            <strong>Checklist Pré-Prática</strong>
+            <p>Uma lista essencial para você se preparar melhor e aproveitar ao máximo sua rotina de exercícios</p>
+          </div>
+        </div>
+
+        <div class="bonus-card">
+          <div class="bonus-card__header">
+            <span>Bônus 03</span>
+            <span>Valor: R$ 37,00</span>
+          </div>
+          <img src="images/bonus 3.png" alt="Bônus 03 — Perguntas Rápidas" class="bonus-card__img" loading="lazy" />
+          <div class="bonus-card__body">
+            <strong>Perguntas Rápidas</strong>
+            <p>Respostas rápidas para as dúvidas mais comuns sobre equilíbrio e tontura, em linguagem simples</p>
+          </div>
+        </div>
+
+        <div class="bonus-card">
+          <div class="bonus-card__header">
+            <span>Bônus 04</span>
+            <span>Valor: R$ 47,00</span>
+          </div>
+          <img src="images/bonus 4.png" alt="Bônus 04 — Guia Prático: Como revisar a rotina sem se frustrar"
+            class="bonus-card__img" loading="lazy" />
+          <div class="bonus-card__body">
+            <strong>Guia Prático: "Como revisar a rotina sem se frustrar"</strong>
+            <p>Estratégias simples para manter a consistência, ajustar sua rotina e celebrar cada progresso</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑨ DEPOIMENTOS -->
+  <section class="section bg-a" id="depoimentos">
+    <div class="wrap">
+      <div class="section-head section-head--center">
+        <span class="label">Resultados reais</span>
+        <h2>Veja o que nossos clientes estão dizendo</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi">
+          <div class="testi__stars">★★★★★</div>
+          <p>"Depois de anos sofrendo com tontura, em 3 semanas de exercícios já sinto uma diferença enorme. Consigo
+            fazer coisas que evitava há muito tempo!"</p>
+          <div class="testi__author">
+            <div class="testi__av">M</div>
+            <div>
+              <strong>Maria S.</strong>
+              <span>64 anos · São Paulo/SP</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi">
+          <div class="testi__stars">★★★★★</div>
+          <p>"Fácil de entender e seguir. As ilustrações ajudam muito. Recomendo para qualquer pessoa que sofre com
+            labirintite!"</p>
+          <div class="testi__author">
+            <div class="testi__av">A</div>
+            <div>
+              <strong>Ana R.</strong>
+              <span>57 anos · Belo Horizonte/MG</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi">
+          <div class="testi__stars">★★★★★</div>
+          <p>"Minha mãe tem 72 anos e conseguiu fazer todos os exercícios sozinha em casa. O guia é claro, seguro e
+            muito bem explicado."</p>
+          <div class="testi__author">
+            <div class="testi__av">C</div>
+            <div>
+              <strong>Carlos M.</strong>
+              <span>45 anos · Porto Alegre/RS</span>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
+  <!-- ⑩ PLANOS -->
+  <section class="section bg-b" id="planos">
+    <div class="wrap">
+      <div class="section-head section-head--center">
+        <span class="label-orange">Escolha seu plano</span>
+        <h2>Escolha a melhor opção para você</h2>
+        <p>Acesso imediato após confirmação do pagamento</p>
+      </div>
+      <div class="plans-row">
 
-
-
-    <!-- BLOCO 4: ANTES X DEPOIS -->
-    <section class="sec sec-light" id="comparacao">
-      <div class="wrap">
-        <div class="sec-header">
-          <span class="eyebrow">Compara&#231;&#227;o</span>
-          <h2>A diferen&#231;a entre estudar Neuroanatomia tentando memorizar tudo... e estudar entendendo como as pe&#231;as se conectam.</h2>
-        </div>
-        <div class="comp-grid" style="margin-top: 16px;">
-          <div class="comp-card comp-bad">
-            <div class="comp-head comp-head-bad">ANTES DO NEUROMAP</div>
-            <ul class="comp-list">
-              <li>&#10060; Informa&#231;&#245;es espalhadas em diferentes cap&#237;tulos e livros.</li>
-              <li>&#10060; Muitas estruturas para decorar sem enxergar a rela&#231;&#227;o entre elas.</li>
-              <li>&#10060; Horas estudando e pouca seguran&#231;a na hora da prova.</li>
-              <li>&#10060; Revis&#245;es demoradas porque voc&#234; precisa reconstruir tudo novamente.</li>
+        <!-- PLANO BÁSICO -->
+        <div class="plan">
+          <div class="plan__top plan__top--a">
+            <span class="plan__icon">📖</span>
+            <div>
+              <strong>Plano Básico</strong>
+              <span>Só o essencial</span>
+            </div>
+          </div>
+          <div class="plan__body">
+            <ul>
+              <li class="yes">✔ Guia de Equilíbrio Completo</li>
             </ul>
+            <div class="plan__price">
+              <span class="plan__old">De R$ 37,00 por apenas</span>
+              <span class="plan__val">R$ 17,90</span>
+              <span class="plan__note">pagamento único · acesso vitalício</span>
+            </div>
+            <a href="https://pay.wiapy.com/fuWeqZLKujBL" target="_blank" rel="noopener noreferrer"
+              class="cta-btn cta-btn--outline" id="plan-basic-cta">QUERO ESTE PLANO</a>
           </div>
-          <div class="comp-card comp-good">
-            <div class="comp-head comp-head-good">COM NEUROMAP</div>
-            <ul class="comp-list">
-              <li>&#9989; Uma vis&#227;o geral organizada dos conte&#250;dos.</li>
-              <li>&#9989; Mapas que mostram conex&#245;es entre estruturas e fun&#231;&#245;es.</li>
-              <li>&#9989; Revis&#245;es mais r&#225;pidas e direcionadas.</li>
-              <li>&#9989; Um m&#233;todo visual para facilitar a compreens&#227;o e memoriza&#231;&#227;o.</li>
+        </div>
+
+        <!-- PLANO COMPLETO -->
+        <div class="plan plan--hot">
+          <div class="plan__badge">Mais Popular</div>
+          <div class="plan__top plan__top--b">
+            <span class="plan__icon">🏆</span>
+            <div>
+              <strong>Plano Completo</strong>
+              <span>Guia + todos os bônus</span>
+            </div>
+          </div>
+          <div class="plan__body">
+            <ul>
+              <li class="yes">✔ Guia de Equilíbrio Completo</li>
+              <li class="yes">✔ <b>Bônus 01</b> — Plano de Estudos 14 Dias</li>
+              <li class="yes">✔ <b>Bônus 02</b> — Checklist Pré-Prática</li>
+              <li class="yes">✔ <b>Bônus 03</b> — Perguntas Rápidas</li>
+              <li class="yes">✔ <b>Bônus 04</b> — Guia Prático Anti-Frustração</li>
             </ul>
+            <div class="plan__price">
+              <span class="plan__old">De R$ 97,00 por apenas</span>
+              <span class="plan__val plan__val--hot">R$ 27,90</span>
+              <span class="plan__note">pagamento único · acesso vitalício</span>
+            </div>
+            <a href="https://pay.wiapy.com/sFx596kD0fSr" target="_blank" rel="noopener noreferrer" class="cta-btn"
+              id="plan-complete-cta">QUERO ESTE PLANO →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑪ GARANTIA -->
+  <section class="section bg-orange" id="garantia">
+    <div class="wrap">
+      <div class="guarantee">
+        <div class="guarantee__seal">
+          <div>🛡️</div>
+          <div>Garantia<br>7 Dias</div>
+        </div>
+        <div class="guarantee__text">
+          <h2>Risco Zero Para Você</h2>
+          <p>Se por qualquer motivo você não ficar satisfeita(o), basta enviar um e-mail em até <strong>7 dias</strong>
+            após a compra e devolvemos <strong>100% do seu dinheiro</strong>. Sem perguntas, sem burocracia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑫ COMO É O ACESSO -->
+  <section class="section bg-a" id="acesso">
+    <div class="wrap">
+      <div class="section-head section-head--center">
+        <span class="label">Simples e rápido</span>
+        <h2>Como é o acesso?</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <div class="step__content">
+            <div class="step__ico">💳</div>
+            <strong>Escolha seu plano</strong>
+            <p>Selecione o plano ideal e clique em comprar</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <div class="step__content">
+            <div class="step__ico">✅</div>
+            <strong>Confirme o pagamento</strong>
+            <p>Pague com cartão, Pix ou boleto com total segurança</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <div class="step__content">
+            <div class="step__ico">📱</div>
+            <strong>Acesse imediatamente</strong>
+            <p>Receba o link por e-mail e acesse no celular, tablet ou PC</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- BLOCO 5: MECANISMO -->
-    <section class="sec sec-dark" id="metodo">
-      <div class="wrap">
-        <div class="sec-header">
-          <span class="eyebrow">Apresenta&#231;&#227;o</span>
-          <h2>Veja como uma mat&#233;ria complexa come&#231;a a fazer sentido quando ela &#233; organizada visualmente.</h2>
-          <img src="images/POV.png" alt="O NeuroMap" style="width: 100%; max-width: 800px; border-radius: 14px; margin: 20px auto; display: block; box-shadow: 0 15px 40px rgba(0,0,0,0.4);">
-        </div>
-        <div class="callout-box"
-          style="margin-top: 20px; margin-bottom: 20px; border-color: rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: #fff; max-width: 700px; margin-left: auto; margin-right: auto; text-align: left; padding: 24px 20px;">
-          <p style="font-size: 1.05rem;">Cada mapa visual organiza as informa&#231;&#245;es de forma l&#243;gica para ajudar voc&#234; a:</p>
-          <ul style="list-style: none; padding: 0; margin-top: 16px; margin-bottom: 24px; display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem;">
-            <li>&#9989; visualizar melhor as estruturas do sistema nervoso;</li>
-            <li>&#9989; entender a rela&#231;&#227;o entre diferentes regi&#245;es;</li>
-            <li>&#9989; criar associa&#231;&#245;es mais f&#225;ceis de lembrar;</li>
-            <li>&#9989; revisar conte&#250;dos importantes sem precisar voltar em p&#225;ginas intermin&#225;veis.</li>
-          </ul>
-          <p style="font-size: 1.1rem;"><strong>Voc&#234; n&#227;o recebe apenas imagens.</strong></p>
-          <p style="font-size: 1.05rem; margin-top: 10px;">Voc&#234; recebe uma organiza&#231;&#227;o visual criada para transformar uma mat&#233;ria complexa em uma sequ&#234;ncia mais clara para o seu c&#233;rebro aprender.</p>
-        </div>
+  <!-- ⑬ FAQ -->
+  <section class="section bg-b" id="faq">
+    <div class="wrap">
+      <div class="section-head section-head--center">
+        <span class="label">Dúvidas</span>
+        <h2>Perguntas Frequentes</h2>
       </div>
-    </section>
-
-    <!-- BLOCO 6: BENEFICIOS -->
-    <section class="sec sec-light" id="beneficios">
-      <div class="wrap">
-        <div class="sec-header">
-          <span class="eyebrow">Benef&#237;cios</span>
-          <h2>Mais do que mapas: uma forma mais inteligente de organizar sua aprendizagem em Neuroanatomia.</h2>
-        </div>
-        <div class="benefits-grid">
-          <div class="benefit-card">
-            <div class="benefit-icon">&#129504;</div>
-            <strong>Visualize conte&#250;dos complexos de forma organizada</strong>
-            <p>Em vez de encontrar informa&#231;&#245;es espalhadas, voc&#234; consegue enxergar estruturas, rela&#231;&#245;es e fun&#231;&#245;es em uma &#250;nica vis&#227;o.</p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">&#128218;</div>
-            <strong>Revise com mais rapidez antes das provas</strong>
-            <p>Tenha um material visual que facilita encontrar os pontos importantes sem precisar reler cap&#237;tulos inteiros.</p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">&#9889;</div>
-            <strong>Entenda conex&#245;es que parecem dif&#237;ceis nos livros tradicionais</strong>
-            <p>Os mapas ajudam seu c&#233;rebro a associar informa&#231;&#245;es que antes pareciam desconectadas.</p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">&#128241;</div>
-            <strong>Estude com mais clareza e menos sobrecarga</strong>
-            <p>Transforme uma mat&#233;ria conhecida pela complexidade em uma experi&#234;ncia de aprendizado mais organizada.</p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">&#128218;</div>
-            <strong>Refer&#234;ncias utilizadas no material:</strong>
-            <ul
-              style="font-size: .82rem; color: var(--sec-muted); display: flex; flex-direction: column; gap: 6px; padding-left: 18px; margin-top: 8px;">
-              <li>Machado, A. B. M. Neuroanatomia Funcional. Editora Atheneu, 3&#170; ed.</li>
-              <li>Purves, D. Neuroci&#234;ncias. Artmed, 6&#170; ed.</li>
-              <li>Haines, D. E. Neuroanatomy: An Atlas of Structures, Sections, and Systems. Wolters Kluwer.</li>
-              <li>Fix, J. D. Neuroanatomia. Guanabara Koogan.</li>
-              <li>Carpenter, M. B. Trato de Neuroanatomia. Guanabara Koogan.</li>
-              <li>Mai, J. K.; Paxinos, G. The Human Nervous System. Academic Press, 3&#170; ed.</li>
-              <li>Kandel, E. R. Principles of Neural Science. McGraw-Hill, 5&#170; ed.</li>
-              <li>Snell, R. S. Neuroanatomia Cl&#237;nica. Editora Revinter.</li>
-              <li>Bear, M. F.; Connors, B. W.; Paradiso, M. A. Neuroci&#234;ncias: desvendando o sistema nervoso.
-                Artmed.</li>
-              <li>Lent, R. Cem bilh&#245;es de neur&#244;nios? Atheneu.</li>
-            </ul>
-          </div>
-        </div>
-        <a href="#oferta" class="btn-sec" id="cta-beneficios">Quero revisar Neuroanatomia com mais clareza &#8594;</a>
-        <p class="micro-note">&#128274; Acesso imediato &middot; Garantia de 30 dias</p>
+      <div class="faq">
+        <details class="faq__item" id="faq-1">
+          <summary>Preciso ter experiência para fazer os exercícios?</summary>
+          <p>Não! O guia foi desenvolvido especialmente para iniciantes. Cada exercício conta com ilustrações detalhadas
+            e instruções simples para que qualquer pessoa consiga executar com segurança em casa.</p>
+        </details>
+        <details class="faq__item" id="faq-2">
+          <summary>Em quanto tempo vou sentir resultados?</summary>
+          <p>Os resultados variam de pessoa para pessoa, mas a maioria dos nossos clientes relata melhora significativa
+            entre 2 e 4 semanas de prática consistente.</p>
+        </details>
+        <details class="faq__item" id="faq-3">
+          <summary>O guia é em formato físico ou digital?</summary>
+          <p>É 100% digital. Você receberá o acesso por e-mail imediatamente após a confirmação do pagamento. Pode
+            acessar pelo celular, tablet ou computador.</p>
+        </details>
+        <details class="faq__item" id="faq-4">
+          <summary>Quais são as formas de pagamento?</summary>
+          <p>Aceitamos cartão de crédito (à vista ou parcelado), Pix e boleto bancário. Todos os pagamentos são
+            processados com total segurança.</p>
+        </details>
+        <details class="faq__item" id="faq-5">
+          <summary>E se eu não gostar? Posso pedir reembolso?</summary>
+          <p>Sim! Você tem 7 dias de garantia total. Se não estiver satisfeita(o), basta entrar em contato por e-mail e
+            devolvemos 100% do valor pago, sem perguntas e sem burocracia.</p>
+        </details>
+        <details class="faq__item" id="faq-6">
+          <summary>Por quanto tempo terei acesso ao material?</summary>
+          <p>O acesso é vitalício! Você pode baixar o material e acessar quando quiser, quantas vezes precisar, sem
+            prazo de expiração.</p>
+        </details>
       </div>
-    </section>
+    </div>
+  </section>
 
-
-
-    <!-- BLOCO 8: PRODUTO + BONUS -->
-    <section class="sec sec-light" id="produto">
-      <div class="wrap">
-        <div class="sec-header">
-          <span class="eyebrow">O que voc&#234; recebe</span>
-          <h2>Ao acessar o NeuroMap, voc&#234; recebe uma biblioteca completa para revisar Neuroanatomia</h2>
-          <p class="sec-lead">Voc&#234; recebe:</p>
-        </div>
-        <div class="produto-box">
-          <div class="produto-header" style="justify-content: center; align-items: center; text-align: center;">
-            <div class="produto-icon-wrap" style="margin-top: 0;">&#129504;</div>
-          <h2>N&#227;o &#233; apenas um resumo de Neuroanatomia.</h2>
-        </div>
-        <div class="produto-box" style="text-align: left; padding: 40px;">
-          <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 20px;">O NeuroMap &#233; um sistema visual de estudo criado para facilitar a forma como seu c&#233;rebro aprende e revisa informa&#231;&#245;es complexas.</p>
-          <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 20px;">Cada mapa foi pensado para organizar conte&#250;dos importantes, mostrar conex&#245;es e transformar uma grande quantidade de informa&#231;&#245;es em uma estrutura mais simples de compreender.</p>
-          <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 10px;">Voc&#234; deixa de apenas tentar memorizar.</p>
-          <p style="font-size: 1.2rem; font-weight: bold; color: var(--acc);">Voc&#234; come&#231;a a enxergar como tudo se conecta.</p>
-        </div>
-        <div class="bonus-label">No <strong>Plano Completo</strong>, voc&#234; recebe ainda:</div>
-        <div class="bonus-grid">
-          <div class="bonus-card">
-            <div class="bonus-tag">&#127873; B&#212;NUS #1</div>
-            <strong>Plano de Estudos NeuroMap 14 Dias</strong>
-            <span class="bonus-val">Valor percebido: <s>R$19,90</s></span>
-            <p>Um roteiro organizado para ajudar voc&#234; a seguir uma sequ&#234;ncia de revis&#227;o.</p>
-            <img src="images/bonus1.png" alt="Plano de Estudos 14 Dias" class="bonus-img">
-          </div>
-          <div class="bonus-card">
-            <div class="bonus-tag">&#127873; B&#212;NUS #2</div>
-            <strong>Checklist Pr&#233;-Prova Neuro</strong>
-            <span class="bonus-val">Valor percebido: <s>R$17,90</s></span>
-            <p>Uma lista pr&#225;tica para acompanhar os conte&#250;dos revisados.</p>
-            <img src="images/bonus2.png" alt="Checklist Pr&#233;-Prova" class="bonus-img">
-          </div>
-          <div class="bonus-card">
-            <div class="bonus-tag">&#127873; B&#212;NUS #3</div>
-            <strong>Banco de Quest&#245;es R&#225;pidas Neuro</strong>
-            <span class="bonus-val">Valor percebido: <s>R$27,90</s></span>
-            <p>Perguntas r&#225;pidas para testar identifica&#231;&#227;o, associa&#231;&#227;o e localiza&#231;&#227;o.
-            </p>
-            <img src="images/bonus3.png" alt="Banco de Quest&#245;es" class="bonus-img">
-          </div>
-          <div class="bonus-card">
-            <div class="bonus-tag">&#127873; B&#212;NUS #4</div>
-            <strong>Guia Como Revisar Neuroanatomia Sem Travar</strong>
-            <span class="bonus-val">Valor percebido: <s>R$19,90</s></span>
-            <p>Um guia com estrat&#233;gias para aproveitar melhor mapas visuais.</p>
-            <img src="images/bonus4.png" alt="Guia de Revis&#227;o" class="bonus-img">
-          </div>
-        </div>
+  <!-- ⑭ CTA FINAL -->
+  <section class="section bg-orange" id="cta-final">
+    <div class="wrap cta-final-wrap">
+      <div class="cta-final__text">
+        <h2>Não deixe a tontura definir os seus limites</h2>
+        <p>Comece hoje mesmo e recupere sua segurança, equilíbrio e qualidade de vida com exercícios simples e seguros.
+        </p>
       </div>
-    </section>
-
-
-
-    <!-- BLOCO 9: OFERTA -->
-    <section class="sec sec-offer" id="oferta">
-      <div class="wrap">
-        <div class="sec-header">
-          <span class="eyebrow">Oferta especial</span>
-          <h2>Tenha seu sistema visual de revis&#227;o de Neuroanatomia completo.</h2>
-          <p class="sec-lead" style="margin-top: 15px;">Voc&#234; poderia passar horas tentando organizar essas informa&#231;&#245;es sozinho entre livros, anota&#231;&#245;es e resumos...<br><br>Ou pode ter acesso a uma estrutura pronta para direcionar seus estudos.</p>
+      <div class="cta-final__box">
+        <span class="cta-final__label">Plano Completo</span>
+        <div class="cta-final__price">
+          <span class="cta-final__old">De R$ 97,00</span>
+          <span class="cta-final__val">R$ 27,90</span>
         </div>
-        <div class="pricing-duo">
-          <div class="price-card price-pro">
-            <div class="price-pro-top">&#11088; MAIS ESCOLHIDO</div>
-            <div class="price-badge" style="color:var(--acc);">PLANO COMPLETO</div>
-            <div class="price-title">NeuroMap Completo &#8212; Atlas Visual de Neuroanatomia</div>
-            <p class="price-desc"
-              style="color:var(--acc);font-weight:600;font-size:0.9rem;margin-bottom:15px;line-height:1.4;">Para quem
-              quer acelerar seus estudos e ter todos os recursos dispon&#237;veis em um &#250;nico lugar.</p>
-            <p class="price-desc">Inclui:</p>
-            <img src="images/mockupcompleto.png" alt="NeuroMap Completo" class="price-img">
-            <ul class="price-items">
-              <li><span class="chk-gold">&#9989;</span> Mapas visuais organizados de Neuroanatomia.</li>
-              <li><span class="chk-gold">&#9989;</span> Estruturas apresentadas de forma l&#243;gica e conectada.</li>
-              <li><span class="chk-gold">&#9989;</span> Material desenvolvido para facilitar estudo e revis&#227;o.</li>
-            </ul>
-            <div class="price-perceived">Voc&#234; recebe <strong style="color:var(--acc);"><s
-                  style="color:#ef4444;">R$129</s></strong> em materiais e paga apenas <strong
-                style="color:var(--acc);">R$29,90</strong> hoje.</div>
-            <div class="price-block">
-              <div class="price-main price-main-gold">R$<strong>29</strong><span class="price-cents">,90</span></div>
-              <div class="price-note">Pagamento &#250;nico</div>
-            </div>
-            <a href="https://pay.cakto.com.br/rfet3nn" class="btn-pro-price" id="cta-completo"
-              onclick="fbq('track', 'InitiateCheckout');">Quero garantir meu acesso ao NeuroMap</a>
-            <p class="price-secure">&#128274; Pagamento seguro &middot; Dados protegidos</p>
-          </div>
-          <div class="price-card price-basic">
-            <div class="price-badge">PLANO ESSENCIAL</div>
-            <div class="price-title">PLANO B&#193;SICO</div>
-            <p class="price-desc">Voc&#234; recebe:</p>
-            <img src="images/mockupsimples.png" alt="NeuroMap Essencial" class="price-img">
-            <ul class="price-items">
-              <li><span class="chk">&#10003;</span> NeuroMap &#8212; Biblioteca Visual de Neuroanatomia</li>
-            </ul>
-            <div class="price-block">
-              <div class="price-from">De <s>R$47</s></div>
-              <div class="price-main">R$<strong>19</strong><span class="price-cents">,90</span></div>
-              <div class="price-note">Pagamento &#250;nico</div>
-            </div>
-            <a href="https://pay.cakto.com.br/3fvsy4d" class="btn-basic-price" id="cta-essencial"
-              onclick="fbq('track', 'InitiateCheckout');">Quero o Plano Essencial</a>
-          </div>
-        </div>
+        <a href="https://pay.wiapy.com/sFx596kD0fSr" target="_blank" rel="noopener noreferrer"
+          class="cta-btn cta-btn--white" id="cta-final-btn">GARANTIR MEU ACESSO AGORA →</a>
+        <p class="cta-final__trust">🔒 Compra segura · 🛡️ Garantia de 7 dias · 📱 Acesso imediato</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- BLOCO 10: GARANTIA -->
-    <section class="sec sec-light" id="garantia">
-      <div class="wrap">
-        <div class="garantia-box">
-          <div class="garantia-badge">
-            <div class="garantia-shield">&#128737;</div>
-            <div class="garantia-days">30<small>dias</small></div>
-          </div>
-          <div class="garantia-txt">
-            <h2>Experimente o NeuroMap sem risco.</h2>
-            <p>Voc&#234; pode acessar o NeuroMap, analisar os mapas e come&#231;ar seus estudos.</p>
-            <p>Se perceber que o material n&#227;o faz sentido para sua forma de aprender, basta solicitar sua garantia dentro do prazo estabelecido.</p>
-            <p><strong>Seu investimento estar&#225; protegido.</strong></p>
-            <a href="#oferta" class="btn-sec" id="cta-gar">Come&#231;ar com Garantia &#8594;</a>
-          </div>
-        </div>
+  <!-- ⑮ FOOTER -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__logo">Guia de Equilíbrio</div>
+      <p class="footer__disc">Este produto é um guia digital educativo e não substitui consulta médica profissional. Em
+        caso de sintomas graves, procure um especialista de saúde.</p>
+      <div class="footer__links">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+        <a href="#">Contato</a>
       </div>
-    </section>
-
-    <!-- BLOCO 11: FAQ -->
-    <section class="sec sec-dark" id="faq">
-      <div class="wrap">
-        <div class="sec-header">
-          <span class="eyebrow">D&#250;vidas</span>
-          <h2>Perguntas frequentes</h2>
-        </div>
-        <div class="faq-list" id="faqList">
-          <div class="faq-item">
-            <button class="faq-q" id="fq1">1. Preciso j&#225; entender Neuroanatomia para usar o NeuroMap? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">N&#227;o. O material foi criado justamente para ajudar estudantes que possuem dificuldade em organizar e compreender os conte&#250;dos.</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq2">2. O NeuroMap serve para quem est&#225; come&#231;ando a estudar Neuroanatomia? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">Sim. Ele ajuda tanto quem est&#225; tendo o primeiro contato quanto quem precisa revisar conte&#250;dos.</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq3">3. Ele funciona para revis&#227;o antes das provas? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">Sim. Os mapas foram estruturados para facilitar revis&#245;es mais r&#225;pidas e organizadas.</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq4">4. Como recebo acesso ao NeuroMap? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">Ap&#243;s a confirma&#231;&#227;o da compra, voc&#234; recebe as instru&#231;&#245;es de acesso ao material digital no seu email.</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq5">5. Posso acessar pelo celular? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">Sim. O material pode ser acessado pelos dispositivos compat&#237;veis com o formato disponibilizado.</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq6">6. O NeuroMap &#233; apenas um resumo? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">N&#227;o. Ele utiliza uma organiza&#231;&#227;o visual para facilitar compreens&#227;o, associa&#231;&#227;o e revis&#227;o dos conte&#250;dos.</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq7">7. Qual a diferen&#231;a entre o NeuroMap e estudar apenas pelo livro? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">Livros possuem muitas informa&#231;&#245;es detalhadas. O NeuroMap organiza visualmente os pontos essenciais para facilitar a compreens&#227;o e revis&#227;o.</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq8">8. Tenho garantia? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">Sim. Voc&#234; possui garantia conforme as condi&#231;&#245;es apresentadas na oferta (30 dias).</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq9">9. Por quanto tempo tenho acesso? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">O acesso segue as condi&#231;&#245;es informadas no momento da compra.</div>
-            </div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-q" id="fq10">10. Para quais cursos da sa&#250;de ele serve? <span class="faq-icon">+</span></button>
-            <div class="faq-a">
-              <div class="faq-a-in">Ele pode auxiliar estudantes de cursos como Medicina, Enfermagem, Fisioterapia e outras &#225;reas que estudam Neuroanatomia.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- BLOCO 12: CTA FINAL -->
-    <section class="sec sec-cta" id="ctafinal">
-      <div class="wrap cta-final-in">
-        <h2>Voc&#234; n&#227;o precisa estudar Neuroanatomia mais dif&#237;cil.<br>Voc&#234; precisa estudar de uma
-          forma mais inteligente.</h2>
-        <p class="cta-choose" style="margin-top: 20px;">Milhares de informa&#231;&#245;es, estruturas e conceitos podem
-          parecer imposs&#237;veis quando est&#227;o espalhados.<br><br>Mas quando tudo est&#225; organizado
-          visualmente, a compreens&#227;o muda.<br><br>O NeuroMap foi criado para ajudar voc&#234; a revisar melhor,
-          economizar tempo e estudar com mais clareza.<br><br>Comece agora sua nova forma de estudar Neuroanatomia.</p>
-        <div class="cta-btns">
-          <a href="https://pay.cakto.com.br/rfet3nn" class="btn-hero" id="cta-final"
-            onclick="fbq('track', 'InitiateCheckout');">&#129504; Quero come&#231;ar minha revis&#227;o visual agora</a>
-        </div>
-        <p class="micro-note">Come&#231;e agora sua revis&#227;o visual.</p>
-        <p class="micro-note">&#128274; Pagamento seguro &middot; Acesso imediato &middot; 30 dias de garantia</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer" id="footer">
-    <div class="wrap footer-in">
-      <p class="footer-brand">&#129504; NeuroMap&#8482;</p>
-      <p class="footer-desc">Material digital de apoio ao estudo e revis&#227;o de Neuroanatomia.</p>
-      <p class="footer-legal">O NeuroMap&#8482; possui finalidade educacional complementar e n&#227;o substitui aulas,
-        livros ou orienta&#231;&#227;o acad&#234;mica. Todos os direitos sobre a obra &#8220;NeuroMap&#8482;&#8221;
-        s&#227;o reservados ao NeuroMap&#8482;, nos termos da Lei n&#186; 9.610/98 (Lei de Direitos Autorais). A
-        reprodu&#231;&#227;o n&#227;o autorizada desta publica&#231;&#227;o, no todo ou em parte, por quaisquer meios,
-        constitui viola&#231;&#227;o dos direitos autorais (Art. 184 do C&#243;digo Penal e Lei 9.610/98).</p>
-      <p class="footer-copy">&copy; 2026 NeuroMap&#8482;. Todos os direitos reservados.</p>
+      <p class="footer__copy">© 2026 — Todos os direitos reservados.</p>
     </div>
   </footer>
 
-  <div class="sticky" id="sticky">
-    <a href="#oferta" class="btn-hero sticky-btn" id="cta-sticky">&#129504; Quero come&#231;ar minha revis&#227;o visual
-      agora</a>
+  <!-- STICKY BAR -->
+  <div class="sticky" id="sticky-bar">
+    <div class="wrap sticky__inner">
+      <div class="sticky__price">
+        <del>R$ 97,00</del>
+        <span>por apenas</span>
+        <strong>R$ 27,90</strong>
+      </div>
+      <a href="#planos" class="cta-btn" id="sticky-cta-btn">GARANTIR MEU DESCONTO →</a>
+    </div>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
