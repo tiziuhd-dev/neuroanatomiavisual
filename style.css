@@ -55,6 +55,14 @@ img { max-width: 100%; display: block; }
 .cta-btn:hover  { filter: brightness(1.07); box-shadow: 0 12px 36px rgba(240,124,34,.55); }
 .cta-btn:active { transform: scale(.97); }
 
+.hero-cta-trust {
+  text-align: center;
+  font-size: .78rem;
+  color: rgba(255,255,255,.55);
+  margin-top: 8px;
+  letter-spacing: .02em;
+}
+
 .cta-btn--white {
   background: #fff;
   color: #0d2b1d;
