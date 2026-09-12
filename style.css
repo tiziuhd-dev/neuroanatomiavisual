@@ -340,11 +340,11 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-sub {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: rgba(255,255,255,.6);
   line-height: 1.75;
   margin-bottom: 38px;
-  max-width: 440px;
+  max-width: 580px;
   margin-left: auto;
   margin-right: auto;
 }
